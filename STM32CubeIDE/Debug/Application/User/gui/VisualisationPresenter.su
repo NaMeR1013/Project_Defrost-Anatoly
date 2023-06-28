@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/visualisation_screen/VisualisationPresenter.hpp:28:13:VisualisationPresenter::~VisualisationPresenter()	0	static
+D:/OneDrive/Coding/MyRepos/Project_Defrost-Anatoly/TouchGFX/gui/src/visualisation_screen/VisualisationPresenter.cpp:10:6:virtual void VisualisationPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/visualisation_screen/VisualisationPresenter.hpp:28:13:virtual VisualisationPresenter::~VisualisationPresenter()	8	static
+../../TouchGFX/gui/include/gui/visualisation_screen/VisualisationPresenter.hpp:28:13:virtual void* VisualisationPresenter::_ZThn4_N22VisualisationPresenterD1Ev()	0	static
+D:/OneDrive/Coding/MyRepos/Project_Defrost-Anatoly/TouchGFX/gui/src/visualisation_screen/VisualisationPresenter.cpp:4:1:VisualisationPresenter::VisualisationPresenter(VisualisationView&)	8	static

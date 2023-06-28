@@ -1,0 +1,5 @@
+Settings1Presenter.hpp:28:13:Settings1Presenter::~Settings1Presenter()	1
+Settings1Presenter.cpp:10:6:virtual void Settings1Presenter::activate()	1
+Settings1Presenter.hpp:28:13:virtual Settings1Presenter::~Settings1Presenter()	1
+Settings1Presenter.hpp:28:13:virtual void* Settings1Presenter::_ZThn4_N18Settings1PresenterD1Ev()	1
+Settings1Presenter.cpp:4:1:Settings1Presenter::Settings1Presenter(Settings1View&)	1
