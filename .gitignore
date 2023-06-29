@@ -1,2 +1,3 @@
-TouchGFX/generated
-TouchGFX/build
+TouchGFX/generated/
+TouchGFX/build/
+STM32CubeIDE/Debug/
