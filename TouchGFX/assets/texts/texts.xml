@@ -37,32 +37,38 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Wildcart_labels">
+      <Text Id="ValueCoreTSet" Alignment="Center" TypographyId="Large">
+        <Translation Language="GB">&lt;value&gt;°</Translation>
+      </Text>
       <Text Id="ValueDefrosterH" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB">&lt;&gt;%</Translation>
+        <Translation Language="GB">&lt;value&gt;%</Translation>
       </Text>
       <Text Id="ValueCoreT1Small" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB">&lt;&gt;°</Translation>
+        <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
       <Text Id="ValueCoreT2Small" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB">&lt;&gt;°</Translation>
+        <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
       <Text Id="ValueDefrosterT1" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB">&lt;&gt;°</Translation>
+        <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
       <Text Id="ValueDefrosterT2" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB">&lt;&gt;°</Translation>
+        <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
       <Text Id="ValuePRGTimeLeft" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">&lt;&gt;</Translation>
+        <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="ValueCoreT2" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">&lt;&gt;°</Translation>
+        <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
       <Text Id="ValueCoreT1" Alignment="Left" TypographyId="Default">
-        <Translation Language="GB">&lt;&gt;°</Translation>
+        <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
     </TextGroup>
     <TextGroup Id="Wildcarts">
+      <Text Id="ValueCoreTSet_W" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">9</Translation>
+      </Text>
       <Text Id="ValueDefrosterH_W" Alignment="Left" TypographyId="Small">
         <Translation Language="GB">99</Translation>
       </Text>
@@ -83,6 +89,12 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Labels">
+      <Text Id="LabelCoreTSet" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Задать Т° в теле</Translation>
+      </Text>
+      <Text Id="LabelCoreTSensors" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Датчики Т° в теле</Translation>
+      </Text>
       <Text Id="LabelPRGTimeLeft" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">Ост. программы, мин</Translation>
       </Text>
