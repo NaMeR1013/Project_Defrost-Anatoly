@@ -710,8 +710,28 @@
             "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_240x320_gradient_light.png"
           },
           {
+            "Type": "BoxWithBorder",
+            "Name": "BoxPRGTime",
+            "X": 34,
+            "Y": 186,
+            "Width": 173,
+            "Height": 67,
+            "Color": {
+              "Red": 78,
+              "Green": 118,
+              "Blue": 147
+            },
+            "BorderColor": {
+              "Red": 40,
+              "Green": 71,
+              "Blue": 87
+            },
+            "BorderSize": 5,
+            "Alpha": 121
+          },
+          {
             "Type": "ButtonWithIcon",
-            "Name": "buttonWithIcon1",
+            "Name": "BTNGoToHome",
             "X": 5,
             "Y": 5,
             "Width": 36,
@@ -725,9 +745,152 @@
             "IconHeight": 30,
             "IconWidth": 30,
             "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToSettings2",
+            "X": 195,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_right_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_right_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToSettings6",
+            "X": 150,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_left_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_left_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelCoreTSensors",
+            "X": 26,
+            "Y": 54,
+            "Width": 189,
+            "Height": 25,
+            "TextId": "LabelCoreTSensors",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelCoreTSensors_1",
+            "X": 34,
+            "Y": 148,
+            "Width": 173,
+            "Height": 25,
+            "TextId": "LabelCoreTSet",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNCoreTSensorsState",
+            "X": 51,
+            "Y": 84,
+            "Width": 138,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_text_off_normal.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_text_on_dark.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\medium\\rounded_text.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ValueCoreTSet",
+            "X": 97,
+            "Y": 195,
+            "Width": 47,
+            "Height": 49,
+            "TextId": "ValueCoreTSet",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "ValueCoreTSet_W"
+            }
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNCoreTSetIncrease",
+            "X": 10,
+            "Y": 269,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_hardware_keyboard_arrow_up_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_hardware_keyboard_arrow_up_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNCoreTSetDecrease",
+            "X": 130,
+            "Y": 269,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_hardware_keyboard_arrow_down_50_50_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_hardware_keyboard_arrow_down_50_50_E8F6FB.svg.png",
+            "IconX": 25,
+            "IconY": -7,
+            "IconHeight": 50,
+            "IconWidth": 50,
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_normal.json"
           }
         ],
-        "Interactions": []
+        "Interactions": [
+          {
+            "InteractionName": "GoToHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToHome"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
       }
     ],
     "CustomContainerDefinitions": [],
