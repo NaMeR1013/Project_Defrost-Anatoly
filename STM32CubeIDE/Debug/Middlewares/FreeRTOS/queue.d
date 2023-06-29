@@ -1,5 +1,5 @@
 Middlewares/FreeRTOS/queue.o: \
- D:/OneDrive/Coding/MyRepos/Project_Defrost-Anatoly/Middlewares/Third_Party/FreeRTOS/Source/queue.c \
+ D:/OneDrive/Coding/Project_Defrost-Anatoly/Middlewares/Third_Party/FreeRTOS/Source/queue.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

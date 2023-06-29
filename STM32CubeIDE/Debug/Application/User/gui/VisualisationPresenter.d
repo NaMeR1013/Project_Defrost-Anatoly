@@ -1,5 +1,5 @@
 Application/User/gui/VisualisationPresenter.o: \
- D:/OneDrive/Coding/MyRepos/Project_Defrost-Anatoly/TouchGFX/gui/src/visualisation_screen/VisualisationPresenter.cpp \
+ D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/gui/src/visualisation_screen/VisualisationPresenter.cpp \
  ../../TouchGFX/gui/include/gui/visualisation_screen/VisualisationView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/visualisation_screen/VisualisationViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

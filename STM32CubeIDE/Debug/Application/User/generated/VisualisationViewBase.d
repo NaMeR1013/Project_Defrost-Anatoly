@@ -1,5 +1,5 @@
 Application/User/generated/VisualisationViewBase.o: \
- D:/OneDrive/Coding/MyRepos/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/visualisation_screen/VisualisationViewBase.cpp \
+ D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/visualisation_screen/VisualisationViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/visualisation_screen/VisualisationViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

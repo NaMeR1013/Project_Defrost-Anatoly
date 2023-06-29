@@ -1,5 +1,5 @@
 Application/User/gui/Settings1Presenter.o: \
- D:/OneDrive/Coding/MyRepos/Project_Defrost-Anatoly/TouchGFX/gui/src/settings1_screen/Settings1Presenter.cpp \
+ D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/gui/src/settings1_screen/Settings1Presenter.cpp \
  ../../TouchGFX/gui/include/gui/settings1_screen/Settings1View.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/settings1_screen/Settings1ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
@@ -44,15 +44,9 @@ Application/User/gui/Settings1Presenter.o: \
  ../../TouchGFX/gui/include/gui/model/ModelListener.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp
+ ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp
 ../../TouchGFX/gui/include/gui/settings1_screen/Settings1View.hpp:
 ../../TouchGFX/generated/gui_generated/include/gui_generated/settings1_screen/Settings1ViewBase.hpp:
 ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
@@ -97,12 +91,6 @@ Application/User/gui/Settings1Presenter.o: \
 ../../TouchGFX/gui/include/gui/model/ModelListener.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Texts.hpp:
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:

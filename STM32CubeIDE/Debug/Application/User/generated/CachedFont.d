@@ -1,5 +1,5 @@
 Application/User/generated/CachedFont.o: \
- D:/OneDrive/Coding/MyRepos/Project_Defrost-Anatoly/TouchGFX/generated/fonts/src/CachedFont.cpp \
+ D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/fonts/src/CachedFont.cpp \
  ../../TouchGFX/generated/fonts/include/fonts/CachedFont.hpp \
  ../../TouchGFX/generated/fonts/include/fonts/FontCache.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

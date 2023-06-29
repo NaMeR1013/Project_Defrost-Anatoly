@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
- D:/OneDrive/Coding/MyRepos/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
+ D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
  ../../TouchGFX/generated/texts/include/texts/TypedTextDatabase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \
@@ -83,7 +83,6 @@ Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
  ../../TouchGFX/gui/include/gui/settings1_screen/Settings1View.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/settings1_screen/Settings1ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/settings1_screen/Settings1Presenter.hpp \
- ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
  ../../TouchGFX/generated/images/include/BitmapDatabase.hpp \
  ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp \
@@ -211,7 +210,6 @@ Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
 ../../TouchGFX/gui/include/gui/settings1_screen/Settings1View.hpp:
 ../../TouchGFX/generated/gui_generated/include/gui_generated/settings1_screen/Settings1ViewBase.hpp:
 ../../TouchGFX/gui/include/gui/settings1_screen/Settings1Presenter.hpp:
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
 ../../TouchGFX/generated/images/include/BitmapDatabase.hpp:
 ../../TouchGFX/generated/images/include/images/BitmapDatabase.hpp:
 ../../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp:

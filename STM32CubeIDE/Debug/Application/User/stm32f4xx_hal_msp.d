@@ -1,5 +1,5 @@
 Application/User/stm32f4xx_hal_msp.o: \
- D:/OneDrive/Coding/MyRepos/Project_Defrost-Anatoly/Core/Src/stm32f4xx_hal_msp.c \
+ D:/OneDrive/Coding/Project_Defrost-Anatoly/Core/Src/stm32f4xx_hal_msp.c \
  ../../Core/Inc/main.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Core/Inc/stm32f4xx_hal_conf.h \

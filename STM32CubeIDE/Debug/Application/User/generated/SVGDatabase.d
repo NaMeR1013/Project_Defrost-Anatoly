@@ -1,5 +1,5 @@
 Application/User/generated/SVGDatabase.o: \
- D:/OneDrive/Coding/MyRepos/Project_Defrost-Anatoly/TouchGFX/generated/images/src/SVGDatabase.cpp \
+ D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/images/src/SVGDatabase.cpp \
  ../../TouchGFX/generated/images/include/images/SVGDatabase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \
