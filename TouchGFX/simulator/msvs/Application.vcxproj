@@ -33,6 +33,9 @@
     <ClCompile Include="..\..\gui\src\settings2_screen\Settings2Presenter.cpp"/>
     <ClCompile Include="..\..\gui\src\settings2_screen\Settings2View.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\settings2_screen\Settings2ViewBase.cpp"/>
+    <ClCompile Include="..\..\gui\src\settingsmenu_screen\SettingsMenuPresenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\settingsmenu_screen\SettingsMenuView.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\settingsmenu_screen\SettingsMenuViewBase.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -195,6 +198,9 @@
     <ClInclude Include="..\..\gui\include\gui\settings2_screen\Settings2Presenter.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\settings2_screen\Settings2View.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settings2_screen\Settings2ViewBase.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\settingsmenu_screen\SettingsMenuPresenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\settingsmenu_screen\SettingsMenuView.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settingsmenu_screen\SettingsMenuViewBase.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

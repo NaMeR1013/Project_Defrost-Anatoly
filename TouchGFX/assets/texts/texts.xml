@@ -89,6 +89,9 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Labels">
+      <Text Id="LabelSettingsMenu" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Ручное управление&#10;и настройки</Translation>
+      </Text>
       <Text Id="LabelGateControlManual" Alignment="Left" TypographyId="Small">
         <Translation Language="GB">Ручн. управление</Translation>
       </Text>
@@ -127,6 +130,18 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Buttons">
+      <Text Id="BTNSettings1" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">Управление температурой в теле</Translation>
+      </Text>
+      <Text Id="BTNSettings2" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">Ворота и форсунки</Translation>
+      </Text>
+      <Text Id="BTNSettings3" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">Вентиляторы и нагрев 1-2</Translation>
+      </Text>
+      <Text Id="BTNSettings4" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">Вентиляторы и нагрев 3-4</Translation>
+      </Text>
       <Text Id="GoToVisualisation" Alignment="Center" TypographyId="Small">
         <Translation Language="GB">Просмотр состояния</Translation>
       </Text>

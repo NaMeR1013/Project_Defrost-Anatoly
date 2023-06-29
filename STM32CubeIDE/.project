@@ -330,6 +330,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings2_screen/Settings2View.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/gui/SettingsMenuPresenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settingsmenu_screen/SettingsMenuPresenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/SettingsMenuView.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settingsmenu_screen/SettingsMenuView.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/gui/VisualisationPresenter.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/visualisation_screen/VisualisationPresenter.cpp</locationURI>
@@ -430,6 +440,11 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/settings2_screen/Settings2ViewBase.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/SettingsMenuViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/settingsmenu_screen/SettingsMenuViewBase.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/VisualisationViewBase.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/visualisation_screen/VisualisationViewBase.cpp</locationURI>
@@ -495,6 +510,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.cpp</locationURI>
@@ -533,6 +558,11 @@
 			<name>Application/User/generated/image_icon_theme_images_action_settings_50_50_E8F6FB.svg.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_icon_theme_images_action_settings_50_50_E8F6FB.svg.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_icon_theme_images_action_settings_applications_30_30_E8F6FB.svg.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_icon_theme_images_action_settings_applications_30_30_E8F6FB.svg.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_icon_theme_images_hardware_keyboard_arrow_down_50_50_E8F6FB.svg.cpp</name>

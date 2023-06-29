@@ -220,6 +220,18 @@
     <Filter Include="Source Files\generated\gui_generated\settings2_screen">
       <UniqueIdentifier>9C80FC43-1756-A0C0-B32A-4F7168A4988D</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\gui\settingsmenu_screen">
+      <UniqueIdentifier>2809004C-D173-4994-2B94-4EE1AA0774B0</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\settingsmenu_screen">
+      <UniqueIdentifier>F58D5D12-68E8-30B1-022C-3FABD44F34F7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\settingsmenu_screen">
+      <UniqueIdentifier>38D5F684-D47B-3516-43D4-1146C62DF36F</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\settingsmenu_screen">
+      <UniqueIdentifier>280BB953-C936-D27D-4768-8A2F3229C99F</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDL2TouchController.cpp">
@@ -287,6 +299,15 @@
     </ClCompile>
     <ClCompile Include="..\..\generated\gui_generated\src\settings2_screen\Settings2ViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\settings2_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settingsmenu_screen\SettingsMenuPresenter.cpp">
+      <Filter>Source Files\gui\settingsmenu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settingsmenu_screen\SettingsMenuView.cpp">
+      <Filter>Source Files\gui\settingsmenu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\settingsmenu_screen\SettingsMenuViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\settingsmenu_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -765,6 +786,15 @@
     </ClInclude>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settings2_screen\Settings2ViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\settings2_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settingsmenu_screen\SettingsMenuPresenter.hpp">
+      <Filter>Header Files\gui\settingsmenu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settingsmenu_screen\SettingsMenuView.hpp">
+      <Filter>Header Files\gui\settingsmenu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settingsmenu_screen\SettingsMenuViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\settingsmenu_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
