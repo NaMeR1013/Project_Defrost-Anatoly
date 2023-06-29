@@ -208,6 +208,18 @@
     <Filter Include="Source Files\generated\gui_generated\settings1_screen">
       <UniqueIdentifier>E81F8137-76AC-7200-EFBE-B4C453455A88</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\gui\settings2_screen">
+      <UniqueIdentifier>F07C774E-C2A1-342F-6164-01138361123E</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\settings2_screen">
+      <UniqueIdentifier>82AC43B6-58AC-D779-D0A8-A40F38C56831</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\settings2_screen">
+      <UniqueIdentifier>18C654C6-B41E-6408-225C-C082FC981E67</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\settings2_screen">
+      <UniqueIdentifier>9C80FC43-1756-A0C0-B32A-4F7168A4988D</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDL2TouchController.cpp">
@@ -266,6 +278,15 @@
     </ClCompile>
     <ClCompile Include="..\..\generated\gui_generated\src\settings1_screen\Settings1ViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\settings1_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settings2_screen\Settings2Presenter.cpp">
+      <Filter>Source Files\gui\settings2_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settings2_screen\Settings2View.cpp">
+      <Filter>Source Files\gui\settings2_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\settings2_screen\Settings2ViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\settings2_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -735,6 +756,15 @@
     </ClInclude>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settings1_screen\Settings1ViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\settings1_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settings2_screen\Settings2Presenter.hpp">
+      <Filter>Header Files\gui\settings2_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settings2_screen\Settings2View.hpp">
+      <Filter>Header Files\gui\settings2_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settings2_screen\Settings2ViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\settings2_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

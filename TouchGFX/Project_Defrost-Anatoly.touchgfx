@@ -711,7 +711,7 @@
           },
           {
             "Type": "BoxWithBorder",
-            "Name": "BoxPRGTime",
+            "Name": "BoxCoreT",
             "X": 34,
             "Y": 186,
             "Width": 173,
@@ -888,6 +888,282 @@
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "GoToSettings2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettings2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Settings2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "IMGBackground",
+            "Width": 240,
+            "Height": 320,
+            "LockPosition": true,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_240x320_gradient_light.png"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToSettings1",
+            "X": 150,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_left_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_left_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToSettings3",
+            "X": 195,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_right_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_right_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToHome",
+            "X": 5,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_action_done_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_home_filled_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNGateManual",
+            "X": 99,
+            "Y": 124,
+            "Width": 138,
+            "Height": 50,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_text_off_normal.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_text_on_dark.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\medium\\rounded_text.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelGateControlManual",
+            "X": 4,
+            "Y": 143,
+            "Width": 93,
+            "Height": 13,
+            "TextId": "LabelGateControlManual",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelSprayManual",
+            "X": 4,
+            "Y": 276,
+            "Width": 93,
+            "Height": 13,
+            "TextId": "LabelSprayManual",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNSprayManual",
+            "X": 99,
+            "Y": 257,
+            "Width": 138,
+            "Height": 50,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_text_off_normal.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_text_on_dark.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\medium\\rounded_text.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelGateControls",
+            "X": 7,
+            "Y": 47,
+            "Width": 227,
+            "Height": 25,
+            "TextId": "LabelGateControls",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelSpray",
+            "X": 70,
+            "Y": 178,
+            "Width": 101,
+            "Height": 25,
+            "TextId": "LabelSpray",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNGateControl",
+            "X": 65,
+            "Y": 72,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\medium\\rounded.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelCloseGate",
+            "X": 186,
+            "Y": 90,
+            "Width": 43,
+            "Height": 13,
+            "TextId": "LabelCloseGate",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelOpenGate",
+            "X": 5,
+            "Y": 90,
+            "Width": 43,
+            "Height": 13,
+            "TextId": "LabelOpenGate",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelSprayOn",
+            "X": 8,
+            "Y": 222,
+            "Width": 43,
+            "Height": 13,
+            "TextId": "LabelSprayOn",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelSprayOff",
+            "X": 189,
+            "Y": 222,
+            "Width": 43,
+            "Height": 13,
+            "TextId": "LabelSprayOff",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNSprayControl",
+            "X": 68,
+            "Y": 204,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\medium\\rounded.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoToHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToHome"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "GoToSettings1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettings1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings1"
             }
           }
         ]

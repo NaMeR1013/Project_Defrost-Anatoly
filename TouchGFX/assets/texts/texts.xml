@@ -89,6 +89,30 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Labels">
+      <Text Id="LabelGateControlManual" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Ручн. управление</Translation>
+      </Text>
+      <Text Id="LabelGateControls" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Управление воротами</Translation>
+      </Text>
+      <Text Id="LabelCloseGate" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Закрыть</Translation>
+      </Text>
+      <Text Id="LabelOpenGate" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Открыть</Translation>
+      </Text>
+      <Text Id="LabelSprayManual" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Ручн. управление</Translation>
+      </Text>
+      <Text Id="LabelSprayOff" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Закрыть</Translation>
+      </Text>
+      <Text Id="LabelSprayOn" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Открыть</Translation>
+      </Text>
+      <Text Id="LabelSpray" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Форсунки</Translation>
+      </Text>
       <Text Id="LabelCoreTSet" Alignment="Center" TypographyId="Default">
         <Translation Language="GB">Задать Т° в теле</Translation>
       </Text>
