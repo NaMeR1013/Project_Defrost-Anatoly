@@ -17,10 +17,10 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Settings1Presenter>::~View()	0	static
-D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:24:1:Settings1ViewBase::~Settings1ViewBase()	0	static
-D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:29:6:virtual void Settings1ViewBase::setupScreen()	0	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:24:1:Settings1ViewBase::~Settings1ViewBase()	0	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:29:6:virtual void Settings1ViewBase::setupScreen()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<Settings1Presenter>::~View()	8	static
-D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:24:1:virtual Settings1ViewBase::~Settings1ViewBase()	8	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:24:1:virtual Settings1ViewBase::~Settings1ViewBase()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
-D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:8:1:Settings1ViewBase::Settings1ViewBase()	56	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:8:1:Settings1ViewBase::Settings1ViewBase()	56	static
