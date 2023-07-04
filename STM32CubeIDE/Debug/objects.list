@@ -130,3 +130,4 @@
 "./Middlewares/FreeRTOS/stream_buffer.o"
 "./Middlewares/FreeRTOS/tasks.o"
 "./Middlewares/FreeRTOS/timers.o"
+"./ProjectCode/Data.o"

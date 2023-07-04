@@ -1,5 +1,5 @@
 Application/User/generated/TypedTextDatabase.o: \
- D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/texts/src/TypedTextDatabase.cpp \
+ D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/texts/src/TypedTextDatabase.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \

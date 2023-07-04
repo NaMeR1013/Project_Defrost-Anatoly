@@ -1,5 +1,5 @@
 Application/User/generated/Settings1ViewBase.o: \
- D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp \
+ D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/settings1_screen/Settings1ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

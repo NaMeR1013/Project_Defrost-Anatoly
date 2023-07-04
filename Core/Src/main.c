@@ -25,6 +25,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "Components/ili9341/ili9341.h"
+#include "Data.hpp"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -88,6 +89,13 @@ const osThreadAttr_t GUI_Task_attributes = {
   .stack_size = 8192 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
+/* Definitions for Data_Task */
+osThreadId_t Data_TaskHandle;
+const osThreadAttr_t Data_Task_attributes = {
+  .name = "Data_Task",
+  .stack_size = 128 * 4,
+  .priority = (osPriority_t) osPriorityLow,
+};
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -103,6 +111,8 @@ static void MX_LTDC_Init(void);
 static void MX_DMA2D_Init(void);
 void StartDefaultTask(void *argument);
 extern void TouchGFX_Task(void *argument);
+void Header_Data_Task(void *argument);
+
 
 /* USER CODE BEGIN PFP */
 static void BSP_SDRAM_Initialization_Sequence(SDRAM_HandleTypeDef *hsdram, FMC_SDRAM_CommandTypeDef *Command);
@@ -209,6 +219,9 @@ int main(void)
 
   /* creation of GUI_Task */
   GUI_TaskHandle = osThreadNew(TouchGFX_Task, NULL, &GUI_Task_attributes);
+
+  /* creation of Data_Task */
+  Data_TaskHandle = osThreadNew(Header_Data_Task, NULL, &Data_Task_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -945,6 +958,25 @@ void StartDefaultTask(void *argument)
   /* USER CODE END 5 */
 }
 
+/* USER CODE BEGIN Header_Header_Data_Task */
+/**
+* @brief Function implementing the Data_Task thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_Header_Data_Task */
+void Header_Data_Task(void *argument)
+{
+  /* USER CODE BEGIN Header_Data_Task */
+  /* Infinite loop */
+  for(;;)
+  {
+	Data_Task_Func();
+    osDelay(1);
+  }
+  /* USER CODE END Header_Data_Task */
+}
+
 /**
   * @brief  Period elapsed callback in non blocking mode
   * @note   This function is called  when TIM6 interrupt took place, inside
@@ -994,3 +1026,5 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
+
