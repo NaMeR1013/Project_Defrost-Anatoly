@@ -1,5 +1,9 @@
 Application/User/TouchGFX/target/TouchGFXGPIO.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/target/TouchGFXGPIO.cpp \
+=======
+ D:/ST/Project_Defrost-Anatoly/TouchGFX/target/TouchGFXGPIO.cpp \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/GPIO.hpp \
  ../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h \

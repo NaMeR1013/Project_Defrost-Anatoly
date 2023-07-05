@@ -44,4 +44,8 @@ Drivers/BSP/Components \
 Drivers/CMSIS \
 Drivers/STM32F4xx_HAL_Driver \
 Middlewares/FreeRTOS \
+<<<<<<< HEAD
+=======
+ProjectCode \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
 

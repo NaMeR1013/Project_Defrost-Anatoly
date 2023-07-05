@@ -29,8 +29,13 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:403:41:virtual const UnicodeChar* touchgfx::TextArea::getWildcard2() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:84:41:virtual const UnicodeChar* touchgfx::TextAreaWithOneWildcard::getWildcard1() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<HomePresenter>::~View()	0	static
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:104:1:HomeViewBase::~HomeViewBase()	0	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:109:6:virtual void HomeViewBase::setupScreen()	0	static
+=======
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:104:1:HomeViewBase::~HomeViewBase()	0	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:109:6:virtual void HomeViewBase::setupScreen()	0	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ToggleButtonTrigger.hpp:36:7:touchgfx::ToggleButtonTrigger::~ToggleButtonTrigger()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:41:7:touchgfx::BoxWithBorderButtonStyle<touchgfx::ToggleButtonTrigger>::~BoxWithBorderButtonStyle()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:123:18:void touchgfx::BoxWithBorderButtonStyle<T>::handlePressedUpdated() [with T = touchgfx::ToggleButtonTrigger]	0	static
@@ -50,13 +55,21 @@ D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<HomeViewBase, const touchgfx::AbstractButton&>::~Callback()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:41:7:virtual touchgfx::BoxWithBorderButtonStyle<touchgfx::ToggleButtonTrigger>::~BoxWithBorderButtonStyle()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TextButtonStyle.hpp:43:7:virtual touchgfx::TextButtonStyle<touchgfx::BoxWithBorderButtonStyle<touchgfx::ToggleButtonTrigger> >::~TextButtonStyle()	8	static
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:104:1:virtual HomeViewBase::~HomeViewBase()	8	static
+=======
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:104:1:virtual HomeViewBase::~HomeViewBase()	8	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:43:18:virtual void touchgfx::TextAreaWithWildcardBase::invalidateContent() const	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:99:18:virtual void touchgfx::AbstractButtonContainer::executeAction()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:111:18:virtual void touchgfx::TextArea::setBaselineY(int16_t)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ToggleButtonTrigger.hpp:78:18:virtual void touchgfx::ToggleButtonTrigger::handleClickEvent(const touchgfx::ClickEvent&)	16	static
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:114:6:void HomeViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+=======
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:114:6:void HomeViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:49:36:virtual touchgfx::TextArea::BoundingArea touchgfx::TextAreaWithWildcardBase::calculateBoundingArea() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:413:10:void touchgfx::Drawable::setWidthHeight(int16_t, int16_t)	16	static
@@ -67,4 +80,8 @@ D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:132:10:void touchgfx::ButtonWithLabel::updateTextPosition()	24	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TextButtonStyle.hpp:46:5:touchgfx::TextButtonStyle<T>::TextButtonStyle() [with T = touchgfx::BoxWithBorderButtonStyle<touchgfx::ToggleButtonTrigger>]	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TextButtonStyle.hpp:57:10:void touchgfx::TextButtonStyle<T>::setText(touchgfx::TypedText) [with T = touchgfx::BoxWithBorderButtonStyle<touchgfx::ToggleButtonTrigger>]	16	static
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:9:1:HomeViewBase::HomeViewBase()	136	static
+=======
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp:9:1:HomeViewBase::HomeViewBase()	136	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition

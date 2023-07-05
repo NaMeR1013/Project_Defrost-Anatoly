@@ -1,5 +1,9 @@
 Application/User/stm32f4xx_hal_timebase_tim.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/Core/Src/stm32f4xx_hal_timebase_tim.c \
+=======
+ D:/ST/Project_Defrost-Anatoly/Core/Src/stm32f4xx_hal_timebase_tim.c \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Core/Inc/stm32f4xx_hal_conf.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \

@@ -1,5 +1,9 @@
 Application/User/freertos.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/Core/Src/freertos.c \
+=======
+ D:/ST/Project_Defrost-Anatoly/Core/Src/freertos.c \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

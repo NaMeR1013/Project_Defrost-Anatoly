@@ -1,5 +1,12 @@
 ../../TouchGFX/gui/include/gui/home_screen/HomePresenter.hpp:28:13:HomePresenter::~HomePresenter()	0	static
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/gui/src/home_screen/HomePresenter.cpp:10:6:virtual void HomePresenter::activate()	0	static
 ../../TouchGFX/gui/include/gui/home_screen/HomePresenter.hpp:28:13:virtual HomePresenter::~HomePresenter()	8	static
 ../../TouchGFX/gui/include/gui/home_screen/HomePresenter.hpp:28:13:virtual void* HomePresenter::_ZThn4_N13HomePresenterD1Ev()	0	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/gui/src/home_screen/HomePresenter.cpp:4:1:HomePresenter::HomePresenter(HomeView&)	8	static
+=======
+D:/ST/Project_Defrost-Anatoly/TouchGFX/gui/src/home_screen/HomePresenter.cpp:10:6:virtual void HomePresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/home_screen/HomePresenter.hpp:28:13:virtual HomePresenter::~HomePresenter()	8	static
+../../TouchGFX/gui/include/gui/home_screen/HomePresenter.hpp:28:13:virtual void* HomePresenter::_ZThn4_N13HomePresenterD1Ev()	0	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/gui/src/home_screen/HomePresenter.cpp:4:1:HomePresenter::HomePresenter(HomeView&)	8	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition

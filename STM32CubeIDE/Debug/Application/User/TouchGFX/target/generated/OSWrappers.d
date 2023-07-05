@@ -1,5 +1,9 @@
 Application/User/TouchGFX/target/generated/OSWrappers.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/target/generated/OSWrappers.cpp \
+=======
+ D:/ST/Project_Defrost-Anatoly/TouchGFX/target/generated/OSWrappers.cpp \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/platform/core/MCUInstrumentation.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

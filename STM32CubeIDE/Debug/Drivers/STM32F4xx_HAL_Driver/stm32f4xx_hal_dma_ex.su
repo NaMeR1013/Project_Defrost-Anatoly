@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:100:19:HAL_DMAEx_MultiBufferStart	12	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:154:19:HAL_DMAEx_MultiBufferStart_IT	16	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:239:19:HAL_DMAEx_ChangeMemory	0	static
+=======
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:100:19:HAL_DMAEx_MultiBufferStart	12	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:154:19:HAL_DMAEx_MultiBufferStart_IT	16	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:239:19:HAL_DMAEx_ChangeMemory	0	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition

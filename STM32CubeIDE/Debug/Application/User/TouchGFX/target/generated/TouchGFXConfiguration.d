@@ -1,5 +1,9 @@
 Application/User/TouchGFX/target/generated/TouchGFXConfiguration.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
+=======
+ D:/ST/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../TouchGFX/generated/texts/include/texts/TypedTextDatabase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \

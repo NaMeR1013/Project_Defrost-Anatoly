@@ -1,5 +1,9 @@
 Application/User/generated/ApplicationFontProvider.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp \
+=======
+ D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/fonts/src/ApplicationFontProvider.cpp \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../TouchGFX/generated/fonts/include/fonts/ApplicationFontProvider.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/FontManager.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \

@@ -130,3 +130,7 @@
 "./Middlewares/FreeRTOS/stream_buffer.o"
 "./Middlewares/FreeRTOS/tasks.o"
 "./Middlewares/FreeRTOS/timers.o"
+<<<<<<< HEAD
+=======
+"./ProjectCode/Data.o"
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition

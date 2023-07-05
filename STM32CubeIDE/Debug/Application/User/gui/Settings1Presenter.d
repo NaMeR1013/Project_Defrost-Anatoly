@@ -1,5 +1,9 @@
 Application/User/gui/Settings1Presenter.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/gui/src/settings1_screen/Settings1Presenter.cpp \
+=======
+ D:/ST/Project_Defrost-Anatoly/TouchGFX/gui/src/settings1_screen/Settings1Presenter.cpp \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../TouchGFX/gui/include/gui/settings1_screen/Settings1View.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/settings1_screen/Settings1ViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

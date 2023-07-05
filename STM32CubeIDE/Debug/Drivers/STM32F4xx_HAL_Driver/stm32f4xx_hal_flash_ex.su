@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:540:13:FLASH_MassErase	0	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:284:19:HAL_FLASHEx_OBProgram	24	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:343:6:HAL_FLASHEx_OBGetConfig	0	static
@@ -10,3 +11,17 @@ D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm3
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:231:19:HAL_FLASHEx_Erase_IT	8	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1309:6:FLASH_FlushCaches	0	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:160:19:HAL_FLASHEx_Erase	32	static
+=======
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:540:13:FLASH_MassErase	0	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:284:19:HAL_FLASHEx_OBProgram	24	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:343:6:HAL_FLASHEx_OBGetConfig	0	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:372:19:HAL_FLASHEx_AdvOBProgram	24	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:428:6:HAL_FLASHEx_AdvOBGetConfig	0	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:460:19:HAL_FLASHEx_OB_SelectPCROP	0	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:485:19:HAL_FLASHEx_OB_DeSelectPCROP	0	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:507:10:HAL_FLASHEx_OB_GetBank2WRP	0	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:584:6:FLASH_Erase_Sector	0	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:231:19:HAL_FLASHEx_Erase_IT	8	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1309:6:FLASH_FlushCaches	0	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:160:19:HAL_FLASHEx_Erase	32	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition

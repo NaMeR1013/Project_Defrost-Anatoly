@@ -1,5 +1,9 @@
 Application/User/gui/FrontendApplication.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/gui/src/common/FrontendApplication.cpp \
+=======
+ D:/ST/Project_Defrost-Anatoly/TouchGFX/gui/src/common/FrontendApplication.cpp \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/mvp/MVPApplication.hpp \

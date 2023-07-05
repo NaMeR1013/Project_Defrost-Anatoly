@@ -20,8 +20,16 @@
 ../../TouchGFX/gui/include/gui/common/FrontendHeap.hpp:6:7:FrontendHeap::~FrontendHeap()	8	static
 ../../TouchGFX/gui/include/gui/common/FrontendHeap.hpp:56:29:void __tcf_0()	8	static
 ../../TouchGFX/gui/include/gui/common/FrontendHeap.hpp:6:7:virtual FrontendHeap::~FrontendHeap()	8	static
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp:40:6:void touchgfx_init()	32	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp:60:6:void touchgfx_components_init()	0	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp:64:6:void touchgfx_taskEntry()	0	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp:73:1:cpp)	16	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp:73:1:cpp)	0	static
+=======
+D:/ST/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp:40:6:void touchgfx_init()	32	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp:60:6:void touchgfx_components_init()	0	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp:64:6:void touchgfx_taskEntry()	0	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp:73:1:cpp)	16	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/target/generated/TouchGFXConfiguration.cpp:73:1:cpp)	0	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition

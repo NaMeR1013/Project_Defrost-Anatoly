@@ -1,5 +1,9 @@
 Application/User/stm32f4xx_it.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/Core/Src/stm32f4xx_it.c \
+=======
+ D:/ST/Project_Defrost-Anatoly/Core/Src/stm32f4xx_it.c \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../Core/Inc/main.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Core/Inc/stm32f4xx_hal_conf.h \

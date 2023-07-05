@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:170:13:HAL_CRC_MspInit	0	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:95:19:HAL_CRC_Init	8	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:185:13:HAL_CRC_MspDeInit	0	static
@@ -5,3 +6,12 @@ D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm3
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:227:10:HAL_CRC_Accumulate	8	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:257:10:HAL_CRC_Calculate	8	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:306:22:HAL_CRC_GetState	0	static
+=======
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:170:13:HAL_CRC_MspInit	0	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:95:19:HAL_CRC_Init	8	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:185:13:HAL_CRC_MspDeInit	0	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:126:19:HAL_CRC_DeInit	16	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:227:10:HAL_CRC_Accumulate	8	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:257:10:HAL_CRC_Calculate	8	static
+D:/ST/Project_Defrost-Anatoly/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c:306:22:HAL_CRC_GetState	0	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition

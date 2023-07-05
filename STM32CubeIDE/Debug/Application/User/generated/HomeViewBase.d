@@ -1,5 +1,9 @@
 Application/User/generated/HomeViewBase.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp \
+=======
+ D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../TouchGFX/generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

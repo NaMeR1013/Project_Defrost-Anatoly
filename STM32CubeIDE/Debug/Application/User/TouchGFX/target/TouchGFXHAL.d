@@ -1,5 +1,9 @@
 Application/User/TouchGFX/target/TouchGFXHAL.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/target/TouchGFXHAL.cpp \
+=======
+ D:/ST/Project_Defrost-Anatoly/TouchGFX/target/TouchGFXHAL.cpp \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../TouchGFX/target/TouchGFXHAL.hpp \
  ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp \

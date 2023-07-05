@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Core/Src/system_stm32f4xx.c:166:6:SystemInit	0	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/Core/Src/system_stm32f4xx.c:221:6:SystemCoreClockUpdate	0	static
+=======
+D:/ST/Project_Defrost-Anatoly/Core/Src/system_stm32f4xx.c:166:6:SystemInit	0	static
+D:/ST/Project_Defrost-Anatoly/Core/Src/system_stm32f4xx.c:221:6:SystemCoreClockUpdate	0	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition

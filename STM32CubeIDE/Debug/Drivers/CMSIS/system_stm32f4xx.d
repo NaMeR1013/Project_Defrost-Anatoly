@@ -1,5 +1,9 @@
 Drivers/CMSIS/system_stm32f4xx.o: \
+<<<<<<< HEAD
  D:/OneDrive/Coding/Project_Defrost-Anatoly/Core/Src/system_stm32f4xx.c \
+=======
+ D:/ST/Project_Defrost-Anatoly/Core/Src/system_stm32f4xx.c \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f429xx.h \
  ../../Drivers/CMSIS/Include/core_cm4.h \

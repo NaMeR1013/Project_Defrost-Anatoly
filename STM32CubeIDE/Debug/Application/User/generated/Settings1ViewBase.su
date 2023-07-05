@@ -25,8 +25,13 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:403:41:virtual const UnicodeChar* touchgfx::TextArea::getWildcard2() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:84:41:virtual const UnicodeChar* touchgfx::TextAreaWithOneWildcard::getWildcard1() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Settings1Presenter>::~View()	0	static
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:78:1:Settings1ViewBase::~Settings1ViewBase()	0	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:83:6:virtual void Settings1ViewBase::setupScreen()	0	static
+=======
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:78:1:Settings1ViewBase::~Settings1ViewBase()	0	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:83:6:virtual void Settings1ViewBase::setupScreen()	0	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<Settings1ViewBase, const touchgfx::AbstractButton&>::~Callback()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = Settings1ViewBase; T1 = const touchgfx::AbstractButton&]	8	static
@@ -35,15 +40,27 @@ D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:62:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<Settings1ViewBase, const touchgfx::AbstractButton&>::~Callback()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<Settings1Presenter>::~View()	8	static
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:78:1:virtual Settings1ViewBase::~Settings1ViewBase()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:43:18:virtual void touchgfx::TextAreaWithWildcardBase::invalidateContent() const	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:111:18:virtual void touchgfx::TextArea::setBaselineY(int16_t)	16	static
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:88:6:void Settings1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8	static
+=======
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:78:1:virtual Settings1ViewBase::~Settings1ViewBase()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:43:18:virtual void touchgfx::TextAreaWithWildcardBase::invalidateContent() const	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:111:18:virtual void touchgfx::TextArea::setBaselineY(int16_t)	16	static
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:88:6:void Settings1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:49:36:virtual touchgfx::TextArea::BoundingArea touchgfx::TextAreaWithWildcardBase::calculateBoundingArea() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:36:7:touchgfx::Widget::Widget()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:33:5:touchgfx::Box::Box()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:43:5:touchgfx::TextArea::TextArea()	8	static
+<<<<<<< HEAD
 D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:9:1:Settings1ViewBase::Settings1ViewBase()	120	static
+=======
+D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp:9:1:Settings1ViewBase::Settings1ViewBase()	120	static
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
