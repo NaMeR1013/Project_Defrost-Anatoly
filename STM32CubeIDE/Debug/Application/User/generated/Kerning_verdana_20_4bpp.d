@@ -1,5 +1,5 @@
 Application/User/generated/Kerning_verdana_20_4bpp.o: \
- D:/OneDrive/Coding/Project_Defrost-Anatoly/TouchGFX/generated/fonts/src/Kerning_verdana_20_4bpp.cpp \
+ D:/ST/Project_Defrost-Anatoly/TouchGFX/generated/fonts/src/Kerning_verdana_20_4bpp.cpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp \
  ../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
