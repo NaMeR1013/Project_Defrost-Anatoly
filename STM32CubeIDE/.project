@@ -35,6 +35,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>STM32F429I-DISCO.ioc</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/STM32F429I-DISCO.ioc</locationURI>
+		</link>
+		<link>
 			<name>Application/User/freertos.c</name>
 			<type>1</type>
 			<locationURI>$%7BPARENT-1-PROJECT_LOC%7D/Core/Src/freertos.c</locationURI>
@@ -320,14 +325,54 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings1_screen/Settings1View.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/VisualisationPresenter.cpp</name>
+			<name>Application/User/gui/Settings2Presenter.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/visualisation_screen/VisualisationPresenter.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings2_screen/Settings2Presenter.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/VisualisationView.cpp</name>
+			<name>Application/User/gui/Settings2View.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/visualisation_screen/VisualisationView.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings2_screen/Settings2View.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/Settings3Presenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings3_screen/Settings3Presenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/Settings3View.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings3_screen/Settings3View.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/Settings4Presenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings4_screen/Settings4Presenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/Settings4View.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settings4_screen/Settings4View.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/SettingsMenuPresenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settingsmenu_screen/SettingsMenuPresenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/SettingsMenuView.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/settingsmenu_screen/SettingsMenuView.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/VisualizationPresenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/visualization_screen/VisualizationPresenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/VisualizationView.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/gui/src/visualization_screen/VisualizationView.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/ApplicationFontProvider.cpp</name>
@@ -415,9 +460,29 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/settings1_screen/Settings1ViewBase.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/VisualisationViewBase.cpp</name>
+			<name>Application/User/generated/Settings2ViewBase.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/visualisation_screen/VisualisationViewBase.cpp</locationURI>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/settings2_screen/Settings2ViewBase.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Settings3ViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/settings3_screen/Settings3ViewBase.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Settings4ViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/settings4_screen/Settings4ViewBase.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/SettingsMenuViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/settingsmenu_screen/SettingsMenuViewBase.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/VisualizationViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/gui_generated/src/visualization_screen/VisualizationViewBase.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/BitmapDatabase.cpp</name>
@@ -480,6 +545,26 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_text_off_normal.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_text_off_normal.cpp</locationURI>
@@ -488,6 +573,16 @@
 			<name>Application/User/generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_text_on_dark.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_medium_rounded_text_on_dark.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_icon_theme_images_action_done_30_30_E8F6FB.svg.cpp</name>
@@ -508,6 +603,11 @@
 			<name>Application/User/generated/image_icon_theme_images_action_settings_50_50_E8F6FB.svg.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_icon_theme_images_action_settings_50_50_E8F6FB.svg.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_icon_theme_images_action_settings_applications_30_30_E8F6FB.svg.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_icon_theme_images_action_settings_applications_30_30_E8F6FB.svg.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_icon_theme_images_hardware_keyboard_arrow_down_50_50_E8F6FB.svg.cpp</name>
