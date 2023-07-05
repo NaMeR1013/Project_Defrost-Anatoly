@@ -11,6 +11,8 @@ public:
     virtual ~Settings2View() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void BTNGateManualClicked();
+    virtual void BTNSprayManualClicked();
 protected:
 };
 

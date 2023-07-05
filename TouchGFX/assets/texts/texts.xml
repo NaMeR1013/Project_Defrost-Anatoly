@@ -37,7 +37,7 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Wildcart_labels">
-      <Text Id="ValueCoreTSet" Alignment="Center" TypographyId="Large">
+      <Text Id="ValueCoreTSet" Alignment="Center" TypographyId="WildcardLarge">
         <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
       <Text Id="ValueDefrosterH" Alignment="Left" TypographyId="Small">
@@ -152,11 +152,49 @@
         <Translation Language="GB">Старт</Translation>
       </Text>
     </TextGroup>
-    <TextGroup Id="Unsorted" />
+    <TextGroup Id="Unsorted">
+      <Text Id="LabelHeater34" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Тэны 3-4</Translation>
+      </Text>
+      <Text Id="LabelFan34" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Вентиляторы 3-4</Translation>
+      </Text>
+      <Text Id="LabelGroup4" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">Группа 4</Translation>
+      </Text>
+      <Text Id="LabelGroup3" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">Группа 3</Translation>
+      </Text>
+      <Text Id="__SingleUse_1KOJ" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB" />
+      </Text>
+      <Text Id="__SingleUse_P4SQ" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB" />
+      </Text>
+      <Text Id="LabelOffOn" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">Выкл/вкл</Translation>
+      </Text>
+      <Text Id="LabelHeater12" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Тэны 1-2</Translation>
+      </Text>
+      <Text Id="LabelGroup2" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">Группа 2</Translation>
+      </Text>
+      <Text Id="LabelGroup1" Alignment="Center" TypographyId="Small">
+        <Translation Language="GB">Группа 1</Translation>
+      </Text>
+      <Text Id="LabelManualControl" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Ручное управление</Translation>
+      </Text>
+      <Text Id="LabelFan12" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Вентиляторы 1-2</Translation>
+      </Text>
+    </TextGroup>
   </Texts>
   <Typographies>
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="WildcardLarge" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-0123456789" />
   </Typographies>
 </TextDatabase>

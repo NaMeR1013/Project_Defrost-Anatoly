@@ -291,7 +291,7 @@
             "Action": {
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Visualisation"
+              "ActionComponent": "Visualization"
             }
           },
           {
@@ -309,7 +309,7 @@
         ]
       },
       {
-        "Name": "Visualisation",
+        "Name": "Visualization",
         "Components": [
           {
             "Type": "Image",
@@ -350,7 +350,7 @@
             "Name": "StateHeat2",
             "X": 94,
             "Y": 120,
-            "Width": 7,
+            "Width": 6,
             "Height": 13,
             "TextId": "StateHeat2",
             "TextRotation": "0",
@@ -409,7 +409,7 @@
             "Name": "StateFan1",
             "X": 28,
             "Y": 172,
-            "Width": 7,
+            "Width": 6,
             "Height": 13,
             "TextId": "StateFan1",
             "TextRotation": "0",
@@ -425,7 +425,7 @@
             "Name": "StateFan3",
             "X": 188,
             "Y": 172,
-            "Width": 7,
+            "Width": 6,
             "Height": 13,
             "TextId": "StateFan3",
             "TextRotation": "0",
@@ -441,7 +441,7 @@
             "Name": "StateFan4",
             "X": 206,
             "Y": 172,
-            "Width": 7,
+            "Width": 6,
             "Height": 13,
             "TextId": "StateFan4",
             "TextRotation": "0",
@@ -457,7 +457,7 @@
             "Name": "StateFan2",
             "X": 46,
             "Y": 172,
-            "Width": 7,
+            "Width": 6,
             "Height": 13,
             "TextId": "StateFan2",
             "TextRotation": "0",
@@ -568,7 +568,7 @@
             "Name": "StateHeat1",
             "X": 84,
             "Y": 120,
-            "Width": 7,
+            "Width": 6,
             "Height": 13,
             "TextId": "StateHeat1",
             "TextRotation": "0",
@@ -584,7 +584,7 @@
             "Name": "StateHeat4",
             "X": 150,
             "Y": 120,
-            "Width": 7,
+            "Width": 6,
             "Height": 13,
             "TextId": "StateHeat4",
             "TextRotation": "0",
@@ -600,7 +600,7 @@
             "Name": "StateHeat3",
             "X": 140,
             "Y": 120,
-            "Width": 7,
+            "Width": 6,
             "Height": 13,
             "TextId": "StateHeat3",
             "TextRotation": "0",
@@ -613,7 +613,7 @@
           },
           {
             "Type": "AnimatedImage",
-            "Name": "AnimHeat123",
+            "Name": "AnimHeat12",
             "X": 63,
             "Y": 86,
             "Width": 25,
@@ -627,7 +627,7 @@
           },
           {
             "Type": "AnimatedImage",
-            "Name": "AnimHeat456",
+            "Name": "AnimHeat34",
             "X": 153,
             "Y": 86,
             "Width": 25,
@@ -653,7 +653,7 @@
             }
           },
           {
-            "InteractionName": "GoToSettings1",
+            "InteractionName": "GoToSettingsMenu",
             "Trigger": {
               "Type": "TriggerClicked",
               "TriggerComponent": "BTNGoToSettingsMenu"
@@ -881,6 +881,30 @@
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "Settings2"
             }
+          },
+          {
+            "InteractionName": "GoToSettings3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettings3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings3"
+            }
+          },
+          {
+            "InteractionName": "GoToSettings4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettings4"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings4"
+            }
           }
         ]
       },
@@ -968,7 +992,7 @@
           },
           {
             "Type": "ButtonWithIcon",
-            "Name": "BTNGoToSettings6",
+            "Name": "BTNGoToSettings4",
             "X": 150,
             "Y": 5,
             "Width": 36,
@@ -1004,7 +1028,7 @@
             "Name": "LabelCoreTSensors_1",
             "X": 34,
             "Y": 148,
-            "Width": 173,
+            "Width": 172,
             "Height": 25,
             "TextId": "LabelCoreTSet",
             "TextRotation": "0",
@@ -1042,7 +1066,9 @@
             },
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "ValueCoreTSet_W"
+              "TextId": "ValueCoreTSet_W",
+              "UseBuffer": true,
+              "BufferSize": 10
             }
           },
           {
@@ -1115,6 +1141,40 @@
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "SettingsMenu"
+            }
+          },
+          {
+            "InteractionName": "BTNCoreTSetIncreaseClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNCoreTSetIncrease"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNCoreTSetIncreaseClicked"
+            }
+          },
+          {
+            "InteractionName": "BTNCoreTSetDecreaseClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNCoreTSetDecrease"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNCoreTSetDecreaseClicked"
+            }
+          },
+          {
+            "InteractionName": "GoToSettings4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettings4"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings4"
             }
           }
         ]
@@ -1259,7 +1319,7 @@
             "Name": "LabelGateControls",
             "X": 7,
             "Y": 47,
-            "Width": 227,
+            "Width": 228,
             "Height": 25,
             "TextId": "LabelGateControls",
             "TextRotation": "0",
@@ -1293,6 +1353,8 @@
             "Y": 72,
             "Width": 110,
             "Height": 50,
+            "Visible": false,
+            "InitialStatePressed": true,
             "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.png",
             "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.png",
             "Preset": "alternate_theme\\presets\\togglebutton\\medium\\rounded.json"
@@ -1300,8 +1362,8 @@
           {
             "Type": "TextArea",
             "Name": "LabelCloseGate",
-            "X": 186,
-            "Y": 90,
+            "X": 10,
+            "Y": 91,
             "Width": 43,
             "Height": 13,
             "TextId": "LabelCloseGate",
@@ -1316,9 +1378,9 @@
           {
             "Type": "TextArea",
             "Name": "LabelOpenGate",
-            "X": 5,
-            "Y": 90,
-            "Width": 43,
+            "X": 187,
+            "Y": 91,
+            "Width": 44,
             "Height": 13,
             "TextId": "LabelOpenGate",
             "TextRotation": "0",
@@ -1332,9 +1394,9 @@
           {
             "Type": "TextArea",
             "Name": "LabelSprayOn",
-            "X": 8,
-            "Y": 222,
-            "Width": 43,
+            "X": 187,
+            "Y": 223,
+            "Width": 44,
             "Height": 13,
             "TextId": "LabelSprayOn",
             "TextRotation": "0",
@@ -1348,8 +1410,8 @@
           {
             "Type": "TextArea",
             "Name": "LabelSprayOff",
-            "X": 189,
-            "Y": 222,
+            "X": 10,
+            "Y": 223,
             "Width": 43,
             "Height": 13,
             "TextId": "LabelSprayOff",
@@ -1368,6 +1430,8 @@
             "Y": 204,
             "Width": 110,
             "Height": 50,
+            "Visible": false,
+            "InitialStatePressed": true,
             "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_off_light.png",
             "Released": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.png",
             "Preset": "alternate_theme\\presets\\togglebutton\\medium\\rounded.json"
@@ -1408,6 +1472,944 @@
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "SettingsMenu"
+            }
+          },
+          {
+            "InteractionName": "GoToSettings3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettings3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings3"
+            }
+          },
+          {
+            "InteractionName": "BTNGateManualClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGateManual"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNGateManualClicked"
+            }
+          },
+          {
+            "InteractionName": "BTNSprayManualClicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNSprayManual"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNSprayManualClicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Settings3",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "IMGBackground",
+            "Width": 240,
+            "Height": 320,
+            "LockPosition": true,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_240x320_gradient_light.png"
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "BoxManualControl12",
+            "Y": 56,
+            "Width": 240,
+            "Height": 91,
+            "Color": {
+              "Red": 78,
+              "Green": 118,
+              "Blue": 147
+            },
+            "BorderColor": {
+              "Red": 40,
+              "Green": 71,
+              "Blue": 87
+            },
+            "BorderSize": 5,
+            "Alpha": 121
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "BoxHeatContols34",
+            "Y": 240,
+            "Width": 240,
+            "Height": 78,
+            "Color": {
+              "Red": 78,
+              "Green": 118,
+              "Blue": 147
+            },
+            "BorderColor": {
+              "Red": 40,
+              "Green": 71,
+              "Blue": 87
+            },
+            "BorderSize": 5,
+            "Alpha": 121
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "BoxFanControls12",
+            "Y": 154,
+            "Width": 240,
+            "Height": 78,
+            "Color": {
+              "Red": 78,
+              "Green": 118,
+              "Blue": 147
+            },
+            "BorderColor": {
+              "Red": 40,
+              "Green": 71,
+              "Blue": 87
+            },
+            "BorderSize": 5,
+            "Alpha": 121
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToHome",
+            "X": 5,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_action_home_filled_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_home_filled_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToSettings4",
+            "X": 195,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_right_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_right_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToSettings2",
+            "X": 150,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_left_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_left_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNManualControl1",
+            "X": 10,
+            "Y": 105,
+            "Width": 62,
+            "Height": 34,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNManualControl2",
+            "X": 167,
+            "Y": 105,
+            "Width": 62,
+            "Height": 34,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToSettingsMenu",
+            "X": 102,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_action_settings_applications_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_settings_applications_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelManualControl",
+            "X": 19,
+            "Y": 61,
+            "Width": 203,
+            "Height": 24,
+            "TextId": "LabelManualControl",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelGroup1",
+            "X": 18,
+            "Y": 88,
+            "Width": 46,
+            "Height": 12,
+            "TextId": "LabelGroup1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelOffOnManual12",
+            "X": 96,
+            "Y": 116,
+            "Width": 50,
+            "Height": 12,
+            "TextId": "LabelOffOn",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelFan12",
+            "X": 36,
+            "Y": 161,
+            "Width": 177,
+            "Height": 25,
+            "TextId": "LabelFan12",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelOffOnFan12",
+            "X": 96,
+            "Y": 198,
+            "Width": 50,
+            "Height": 12,
+            "TextId": "LabelOffOn",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNFanControl2",
+            "X": 167,
+            "Y": 187,
+            "Width": 62,
+            "Height": 34,
+            "Visible": false,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNFanControl1",
+            "X": 10,
+            "Y": 187,
+            "Width": 62,
+            "Height": 34,
+            "Visible": false,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNHeatControl1",
+            "X": 10,
+            "Y": 273,
+            "Width": 62,
+            "Height": 34,
+            "Visible": false,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNHeatControl2",
+            "X": 167,
+            "Y": 273,
+            "Width": 62,
+            "Height": 34,
+            "Visible": false,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelGroup2",
+            "X": 175,
+            "Y": 88,
+            "Width": 46,
+            "Height": 12,
+            "TextId": "LabelGroup2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelOffOnHeat12",
+            "X": 96,
+            "Y": 284,
+            "Width": 50,
+            "Height": 12,
+            "TextId": "LabelOffOn",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 97,
+            "Y": 116,
+            "Height": 13,
+            "TextId": "__SingleUse_P4SQ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelHeater12",
+            "X": 75,
+            "Y": 246,
+            "Width": 93,
+            "Height": 25,
+            "TextId": "LabelHeater12",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoToHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToHome"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "GoToSettings2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettings2"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings2"
+            }
+          },
+          {
+            "InteractionName": "GoToSettingsMenu",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettingsMenu"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "SettingsMenu"
+            }
+          },
+          {
+            "InteractionName": "GoToSettings4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettings4"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings4"
+            }
+          },
+          {
+            "InteractionName": "BTNManual1Clicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNManualControl1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNManual1Clicked"
+            }
+          },
+          {
+            "InteractionName": "BTNManual2Clicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNManualControl2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNManual2Clicked"
+            }
+          },
+          {
+            "InteractionName": "BTNFanControl1Clicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNFanControl1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNFanControl1Clicked"
+            }
+          },
+          {
+            "InteractionName": "BTNFanControl2Clicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNFanControl2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNFanControl2Clicked"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Settings4",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "IMGBackground",
+            "Width": 240,
+            "Height": 320,
+            "LockPosition": true,
+            "RelativeFilename": "__generated\\alternate_theme_images_backgrounds_240x320_gradient_light.png"
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "BoxManual34",
+            "Y": 56,
+            "Width": 240,
+            "Height": 91,
+            "Color": {
+              "Red": 78,
+              "Green": 118,
+              "Blue": 147
+            },
+            "BorderColor": {
+              "Red": 40,
+              "Green": 71,
+              "Blue": 87
+            },
+            "BorderSize": 5,
+            "Alpha": 121
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "BoxHeatControls34",
+            "Y": 240,
+            "Width": 240,
+            "Height": 78,
+            "Color": {
+              "Red": 78,
+              "Green": 118,
+              "Blue": 147
+            },
+            "BorderColor": {
+              "Red": 40,
+              "Green": 71,
+              "Blue": 87
+            },
+            "BorderSize": 5,
+            "Alpha": 121
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "BoxFanControls34",
+            "Y": 154,
+            "Width": 240,
+            "Height": 78,
+            "Color": {
+              "Red": 78,
+              "Green": 118,
+              "Blue": 147
+            },
+            "BorderColor": {
+              "Red": 40,
+              "Green": 71,
+              "Blue": 87
+            },
+            "BorderSize": 5,
+            "Alpha": 121
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToHome",
+            "X": 5,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_action_home_filled_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_home_filled_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToSettings1",
+            "X": 195,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_right_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_right_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToSettings3",
+            "X": 150,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_navigation_arrow_left_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_navigation_arrow_left_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNManualControl3",
+            "X": 10,
+            "Y": 105,
+            "Width": 62,
+            "Height": 34,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNManualControl4",
+            "X": 167,
+            "Y": 105,
+            "Width": 62,
+            "Height": 34,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "BTNGoToSettingsMenu",
+            "X": 102,
+            "Y": 5,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_round_micro_fill_normal.png",
+            "IconPressed": "__generated\\icon_theme_images_action_settings_applications_30_30_E8F6FB.svg.png",
+            "IconReleased": "__generated\\icon_theme_images_action_settings_applications_30_30_E8F6FB.svg.png",
+            "IconX": 4,
+            "IconY": 2,
+            "IconHeight": 30,
+            "IconWidth": 30,
+            "Preset": "alternate_theme\\presets\\button\\icon\\round\\micro_fill_normal.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelManualControl",
+            "X": 19,
+            "Y": 61,
+            "Width": 203,
+            "Height": 24,
+            "TextId": "LabelManualControl",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelGroup3",
+            "X": 18,
+            "Y": 88,
+            "Width": 46,
+            "Height": 12,
+            "TextId": "LabelGroup3",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelOffOnManual34",
+            "X": 96,
+            "Y": 116,
+            "Width": 50,
+            "Height": 12,
+            "TextId": "LabelOffOn",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelFan34",
+            "X": 36,
+            "Y": 161,
+            "Width": 177,
+            "Height": 25,
+            "TextId": "LabelFan34",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelOffOnFan34",
+            "X": 96,
+            "Y": 198,
+            "Width": 50,
+            "Height": 12,
+            "TextId": "LabelOffOn",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNFanControl4",
+            "X": 167,
+            "Y": 187,
+            "Width": 62,
+            "Height": 34,
+            "Visible": false,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNFanControl3",
+            "X": 10,
+            "Y": 187,
+            "Width": 62,
+            "Height": 34,
+            "Visible": false,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNHeatControl3",
+            "X": 10,
+            "Y": 273,
+            "Width": 62,
+            "Height": 34,
+            "Visible": false,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "BTNHeatControl4",
+            "X": 167,
+            "Y": 273,
+            "Width": 62,
+            "Height": 34,
+            "Visible": false,
+            "InitialStatePressed": true,
+            "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_off_light.png",
+            "Released": "__generated\\alternate_theme_images_widgets_togglebutton_small_rounded_small_on_normal.png",
+            "Preset": "alternate_theme\\presets\\togglebutton\\small\\rounded_neutral.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelGroup4",
+            "X": 175,
+            "Y": 88,
+            "Width": 46,
+            "Height": 12,
+            "TextId": "LabelGroup4",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelOffOnHeat34",
+            "X": 96,
+            "Y": 284,
+            "Width": 50,
+            "Height": 12,
+            "TextId": "LabelOffOn",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true,
+            "LineSpacing": -1
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 97,
+            "Y": 116,
+            "Height": 13,
+            "TextId": "__SingleUse_1KOJ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "LabelHeater34",
+            "X": 75,
+            "Y": 246,
+            "Width": 93,
+            "Height": 25,
+            "TextId": "LabelHeater34",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 232,
+              "Green": 246,
+              "Blue": 251
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoToHome",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToHome"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "GoToSettings3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettings3"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings3"
+            }
+          },
+          {
+            "InteractionName": "GoToSettingsMenu",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettingsMenu"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "SettingsMenu"
+            }
+          },
+          {
+            "InteractionName": "GoToSettings1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNGoToSettings1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings1"
+            }
+          },
+          {
+            "InteractionName": "BTNManual3Clicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNManualControl3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNManual3Clicked"
+            }
+          },
+          {
+            "InteractionName": "BTNManual4Clicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNManualControl4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNManual4Clicked"
+            }
+          },
+          {
+            "InteractionName": "BTNFanControl3Clicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNFanControl3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNFanControl3Clicked"
+            }
+          },
+          {
+            "InteractionName": "BTNFanControl4Clicked",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTNFanControl4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "BTNFanControl4Clicked"
             }
           }
         ]

@@ -1,17 +1,17 @@
-#ifndef VISUALISATIONPRESENTER_HPP
-#define VISUALISATIONPRESENTER_HPP
+#ifndef SETTINGS4PRESENTER_HPP
+#define SETTINGS4PRESENTER_HPP
 
 #include <gui/model/ModelListener.hpp>
 #include <mvp/Presenter.hpp>
 
 using namespace touchgfx;
 
-class VisualisationView;
+class Settings4View;
 
-class VisualisationPresenter : public touchgfx::Presenter, public ModelListener
+class Settings4Presenter : public touchgfx::Presenter, public ModelListener
 {
 public:
-    VisualisationPresenter(VisualisationView& v);
+    Settings4Presenter(Settings4View& v);
 
     /**
      * The activate function is called automatically when this screen is "switched in"
@@ -25,12 +25,12 @@ public:
      */
     virtual void deactivate();
 
-    virtual ~VisualisationPresenter() {};
+    virtual ~Settings4Presenter() {};
 
 private:
-    VisualisationPresenter();
+    Settings4Presenter();
 
-    VisualisationView& view;
+    Settings4View& view;
 };
 
-#endif // VISUALISATIONPRESENTER_HPP
+#endif // SETTINGS4PRESENTER_HPP
