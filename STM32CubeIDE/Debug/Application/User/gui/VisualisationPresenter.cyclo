@@ -1,5 +1,0 @@
-VisualisationPresenter.hpp:28:13:VisualisationPresenter::~VisualisationPresenter()	1
-VisualisationPresenter.cpp:10:6:virtual void VisualisationPresenter::activate()	1
-VisualisationPresenter.hpp:28:13:virtual VisualisationPresenter::~VisualisationPresenter()	1
-VisualisationPresenter.hpp:28:13:virtual void* VisualisationPresenter::_ZThn4_N22VisualisationPresenterD1Ev()	1
-VisualisationPresenter.cpp:4:1:VisualisationPresenter::VisualisationPresenter(VisualisationView&)	1

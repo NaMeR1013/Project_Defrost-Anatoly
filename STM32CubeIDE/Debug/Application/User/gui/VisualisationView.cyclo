@@ -1,8 +1,0 @@
-Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
-Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
-Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
-VisualisationView.cpp:13:6:virtual void VisualisationView::tearDownScreen()	1
-VisualisationView.hpp:11:13:VisualisationView::~VisualisationView()	1
-VisualisationView.hpp:11:13:virtual VisualisationView::~VisualisationView()	1
-VisualisationView.cpp:3:1:VisualisationView::VisualisationView()	1
-VisualisationView.cpp:8:6:virtual void VisualisationView::setupScreen()	1
