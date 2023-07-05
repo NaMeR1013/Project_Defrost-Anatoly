@@ -11,7 +11,10 @@ public:
     virtual ~Settings1View() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void BTNCoreTSetIncreaseClicked();
+    virtual void BTNCoreTSetDecreaseClicked();
 protected:
+    int CoreTSet = 6;
 };
 
 #endif // SETTINGS1VIEW_HPP
