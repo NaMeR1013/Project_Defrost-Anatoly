@@ -1,0 +1,2 @@
+freertos.c:62:13:configureTimerForRunTimeStats	1
+freertos.c:67:22:getRunTimeCounterValue	1
