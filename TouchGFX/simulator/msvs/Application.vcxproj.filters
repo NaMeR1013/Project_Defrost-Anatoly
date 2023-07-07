@@ -172,29 +172,17 @@
     <Filter Include="Header Files\generated\simulator\include\simulator\video">
       <UniqueIdentifier>407DFE35-93E8-9E1D-63D7-1BE9FD3FDD7D</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\visualisation_screen">
-      <UniqueIdentifier>B416DC05-65D3-E29A-CC0D-A3BAEA937019</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui\visualisation_screen">
-      <UniqueIdentifier>F19AA395-5D17-85AC-D24F-54084D8AD142</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\gui\home_screen">
       <UniqueIdentifier>7721F27E-A822-711C-6359-E9137C10689B</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\gui\home_screen">
       <UniqueIdentifier>7884DDD5-7886-A76D-711B-3F1582FCA472</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\generated\gui_generated\visualisation_screen">
-      <UniqueIdentifier>B66B3BFA-908B-7E16-F2B9-95A316B2745C</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\generated\gui_generated\home_screen">
       <UniqueIdentifier>D1E25432-CDB7-E693-A480-AA1F3CBCFA71</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\generated\gui_generated\home_screen">
       <UniqueIdentifier>1F58BE88-3B9F-13EE-474B-971282F92325</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\generated\gui_generated\visualisation_screen">
-      <UniqueIdentifier>A6E43961-8227-F41D-9D19-C8CB755ADB33</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\gui\settings1_screen">
       <UniqueIdentifier>5B6050E8-F30A-AEDB-1A44-F71E51D844E0</UniqueIdentifier>
@@ -207,6 +195,66 @@
     </Filter>
     <Filter Include="Source Files\generated\gui_generated\settings1_screen">
       <UniqueIdentifier>E81F8137-76AC-7200-EFBE-B4C453455A88</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\settings2_screen">
+      <UniqueIdentifier>F07C774E-C2A1-342F-6164-01138361123E</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\settings2_screen">
+      <UniqueIdentifier>82AC43B6-58AC-D779-D0A8-A40F38C56831</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\settings2_screen">
+      <UniqueIdentifier>18C654C6-B41E-6408-225C-C082FC981E67</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\settings2_screen">
+      <UniqueIdentifier>9C80FC43-1756-A0C0-B32A-4F7168A4988D</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\settingsmenu_screen">
+      <UniqueIdentifier>2809004C-D173-4994-2B94-4EE1AA0774B0</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\settingsmenu_screen">
+      <UniqueIdentifier>F58D5D12-68E8-30B1-022C-3FABD44F34F7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\settingsmenu_screen">
+      <UniqueIdentifier>38D5F684-D47B-3516-43D4-1146C62DF36F</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\settingsmenu_screen">
+      <UniqueIdentifier>280BB953-C936-D27D-4768-8A2F3229C99F</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\settings3_screen">
+      <UniqueIdentifier>038EE2A8-DEF1-E2DD-8008-AAAE2CFA3BC9</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\settings3_screen">
+      <UniqueIdentifier>5B03A344-BF65-7505-3DD0-06937DF202D1</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\settings3_screen">
+      <UniqueIdentifier>F328060F-5912-FD85-9EC6-65D780B22453</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\settings3_screen">
+      <UniqueIdentifier>0DDE2921-BDFF-4ED3-1AF1-17F13E6CF45F</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\settings4_screen">
+      <UniqueIdentifier>1EB59F7D-469A-9ACC-2FF6-799359B081BE</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\settings4_screen">
+      <UniqueIdentifier>FE1C20BB-2D32-AA53-1688-D7F7A30050D3</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\settings4_screen">
+      <UniqueIdentifier>DF77BD0E-CDAD-F685-D791-460537C420AA</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\settings4_screen">
+      <UniqueIdentifier>10F70E5A-850F-8099-CFEE-74BDE795088A</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\visualization_screen">
+      <UniqueIdentifier>AEA6148F-310B-329A-2B28-8969762B6E69</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\visualization_screen">
+      <UniqueIdentifier>EB2AD1C7-AB87-6E49-5B17-E4D4DC68DE19</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\visualization_screen">
+      <UniqueIdentifier>6EB332FD-CCB1-190A-5818-92AE15965D8E</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\visualization_screen">
+      <UniqueIdentifier>6DE85574-1C37-A269-0F99-73722875ED21</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -249,15 +297,6 @@
     <ClCompile Include="..\..\generated\gui_generated\src\home_screen\HomeViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\home_screen</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\gui\src\visualisation_screen\VisualisationPresenter.cpp">
-      <Filter>Source Files\gui\visualisation_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\visualisation_screen\VisualisationView.cpp">
-      <Filter>Source Files\gui\visualisation_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\visualisation_screen\VisualisationViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\visualisation_screen</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\gui\src\settings1_screen\Settings1Presenter.cpp">
       <Filter>Source Files\gui\settings1_screen</Filter>
     </ClCompile>
@@ -266,6 +305,51 @@
     </ClCompile>
     <ClCompile Include="..\..\generated\gui_generated\src\settings1_screen\Settings1ViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\settings1_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settings2_screen\Settings2Presenter.cpp">
+      <Filter>Source Files\gui\settings2_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settings2_screen\Settings2View.cpp">
+      <Filter>Source Files\gui\settings2_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\settings2_screen\Settings2ViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\settings2_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settingsmenu_screen\SettingsMenuPresenter.cpp">
+      <Filter>Source Files\gui\settingsmenu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settingsmenu_screen\SettingsMenuView.cpp">
+      <Filter>Source Files\gui\settingsmenu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\settingsmenu_screen\SettingsMenuViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\settingsmenu_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settings3_screen\Settings3Presenter.cpp">
+      <Filter>Source Files\gui\settings3_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settings3_screen\Settings3View.cpp">
+      <Filter>Source Files\gui\settings3_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\settings3_screen\Settings3ViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\settings3_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settings4_screen\Settings4Presenter.cpp">
+      <Filter>Source Files\gui\settings4_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\settings4_screen\Settings4View.cpp">
+      <Filter>Source Files\gui\settings4_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\settings4_screen\Settings4ViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\settings4_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\visualization_screen\VisualizationPresenter.cpp">
+      <Filter>Source Files\gui\visualization_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\visualization_screen\VisualizationView.cpp">
+      <Filter>Source Files\gui\visualization_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\visualization_screen\VisualizationViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\visualization_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -718,15 +802,6 @@
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\home_screen\HomeViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\home_screen</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\visualisation_screen\VisualisationPresenter.hpp">
-      <Filter>Header Files\gui\visualisation_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\visualisation_screen\VisualisationView.hpp">
-      <Filter>Header Files\gui\visualisation_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\visualisation_screen\VisualisationViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\visualisation_screen</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\gui\include\gui\settings1_screen\Settings1Presenter.hpp">
       <Filter>Header Files\gui\settings1_screen</Filter>
     </ClInclude>
@@ -735,6 +810,51 @@
     </ClInclude>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settings1_screen\Settings1ViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\settings1_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settings2_screen\Settings2Presenter.hpp">
+      <Filter>Header Files\gui\settings2_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settings2_screen\Settings2View.hpp">
+      <Filter>Header Files\gui\settings2_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settings2_screen\Settings2ViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\settings2_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settingsmenu_screen\SettingsMenuPresenter.hpp">
+      <Filter>Header Files\gui\settingsmenu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settingsmenu_screen\SettingsMenuView.hpp">
+      <Filter>Header Files\gui\settingsmenu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settingsmenu_screen\SettingsMenuViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\settingsmenu_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settings3_screen\Settings3Presenter.hpp">
+      <Filter>Header Files\gui\settings3_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settings3_screen\Settings3View.hpp">
+      <Filter>Header Files\gui\settings3_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settings3_screen\Settings3ViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\settings3_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settings4_screen\Settings4Presenter.hpp">
+      <Filter>Header Files\gui\settings4_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\settings4_screen\Settings4View.hpp">
+      <Filter>Header Files\gui\settings4_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\settings4_screen\Settings4ViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\settings4_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\visualization_screen\VisualizationPresenter.hpp">
+      <Filter>Header Files\gui\visualization_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\visualization_screen\VisualizationView.hpp">
+      <Filter>Header Files\gui\visualization_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\visualization_screen\VisualizationViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\visualization_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

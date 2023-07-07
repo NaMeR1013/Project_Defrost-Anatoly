@@ -1,4 +1,9 @@
+<<<<<<< HEAD
+Application/User/main.o: \
+ D:/OneDrive/Coding/Project_Defrost-Anatoly/Core/Src/main.c \
+=======
 Application/User/main.o: D:/ST/Project_Defrost-Anatoly/Core/Src/main.c \
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
  ../../Core/Inc/main.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Core/Inc/stm32f4xx_hal_conf.h \
@@ -49,8 +54,16 @@ Application/User/main.o: D:/ST/Project_Defrost-Anatoly/Core/Src/main.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  ../../TouchGFX/App/app_touchgfx.h \
  ../../Drivers/BSP/Components/ili9341/ili9341.h \
+<<<<<<< HEAD
+ ../../Drivers/BSP/Components/ili9341/../Common/lcd.h
+=======
  ../../Drivers/BSP/Components/ili9341/../Common/lcd.h \
+<<<<<<< HEAD
  D:/ST/Project_Defrost-Anatoly/STM32CubeIDE/ProjectCode/Data.h
+=======
+ D:/ST/Project_Defrost-Anatoly/STM32CubeIDE/ProjectCode/Data.hpp
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
+>>>>>>> main
 ../../Core/Inc/main.h:
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../../Core/Inc/stm32f4xx_hal_conf.h:
@@ -102,4 +115,11 @@ Application/User/main.o: D:/ST/Project_Defrost-Anatoly/Core/Src/main.c \
 ../../TouchGFX/App/app_touchgfx.h:
 ../../Drivers/BSP/Components/ili9341/ili9341.h:
 ../../Drivers/BSP/Components/ili9341/../Common/lcd.h:
+<<<<<<< HEAD
 D:/ST/Project_Defrost-Anatoly/STM32CubeIDE/ProjectCode/Data.h:
+=======
+<<<<<<< HEAD
+=======
+D:/ST/Project_Defrost-Anatoly/STM32CubeIDE/ProjectCode/Data.hpp:
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
+>>>>>>> main

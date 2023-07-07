@@ -9,7 +9,10 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+<<<<<<< HEAD
+=======
 -include ProjectCode/subdir.mk
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
 -include Middlewares/FreeRTOS/subdir.mk
 -include Drivers/STM32F4xx_HAL_Driver/subdir.mk
 -include Drivers/CMSIS/subdir.mk
@@ -87,8 +90,17 @@ all: main-build
 main-build: STM32F429I-DISCO.elf secondary-outputs
 
 # Tool invocations
+<<<<<<< HEAD
+STM32F429I-DISCO.elf STM32F429I-DISCO.map: $(OBJS) $(USER_OBJS) D:\OneDrive\Coding\Project_Defrost-Anatoly\STM32CubeIDE\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "STM32F429I-DISCO.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\OneDrive\Coding\Project_Defrost-Anatoly\STM32CubeIDE\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F429I-DISCO.map" -Wl,--gc-sections -static -LC:/git/STM32F429-dk/untouched/rev_D/stm32f429i_disco_rev_d01/STM32F429I_DISCO_REV_D01/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc -LD:/OneDrive/Coding/Project_Defrost-Anatoly/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+=======
 STM32F429I-DISCO.elf STM32F429I-DISCO.map: $(OBJS) $(USER_OBJS) D:\ST\Project_Defrost-Anatoly\STM32CubeIDE\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+<<<<<<< HEAD
 	arm-none-eabi-g++ -o "STM32F429I-DISCO.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\ST\Project_Defrost-Anatoly\STM32CubeIDE\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F429I-DISCO.map" -Wl,--gc-sections -static -LC:/git/STM32F429-dk/untouched/rev_D/stm32f429i_disco_rev_d01/STM32F429I_DISCO_REV_D01/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc -LD:/OneDrive/Coding/Project_Defrost-Anatoly/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc -L../Project_Defrost-Anatoly/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc -LD:/ST/Project_Defrost-Anatoly/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+=======
+	arm-none-eabi-g++ -o "STM32F429I-DISCO.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\ST\Project_Defrost-Anatoly\STM32CubeIDE\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F429I-DISCO.map" -Wl,--gc-sections -static -LC:/git/STM32F429-dk/untouched/rev_D/stm32f429i_disco_rev_d01/STM32F429I_DISCO_REV_D01/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc -LD:/OneDrive/Coding/Project_Defrost-Anatoly/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc -LD:/ST/Project_Defrost-Anatoly/Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+>>>>>>> parent of 18914a0... Merge pull request #6 from NaMeR1013/Settings_screens_addition
+>>>>>>> main
 	@echo 'Finished building target: $@'
 	@echo ' '
 
