@@ -5,11 +5,15 @@
  *      Author: gdr
  */
 #include "Data.h"
+#include "main.h"
 #include "cmsis_os.h"
 #include "stm32f4xx_hal.h"
+// ReadDataEventHandle was defined in main.c
+extern osEventFlagsId_t ReadDataEventHandle;
 
 int16_t CurrentTime = 0;	// current number of measure
 int8_t ArrayCnt = 0;		// counter for measure array
+uint32_t flags;				// flags for waiting event
 
 struct Sensor {				// structure definition
 	int16_t Time;			// number of time quantum measuring
@@ -17,14 +21,12 @@ struct Sensor {				// structure definition
 
 };
 
-//int PopData(int16_t TimeFromStart, int8_t SensNum, int8_t Param);
 
 struct Sensor Measure[TQ][SQ];	// define Measure array
 
 
 void DataFunc()
 	{
-
 	osDelay(1000);
 	PushData();
 	}
@@ -64,4 +66,21 @@ int PopData(int TimeFromStart, int SensNum, int Param) {
 			return 0;
 			break;
 	}
+}
+
+// Operating system timer 1 sec will start this function
+void DataTimerFunc() {
+	HAL_GPIO_TogglePin(GPIOG, LD4_Pin);
+	// Здесь установка флага события для запуска задачи по считыванию данных
+	osEventFlagsSet(ReadDataEventHandle, FLAG_ReadData);
+	osDelay(100);
+	HAL_GPIO_TogglePin(GPIOG, LD4_Pin);
+
+}
+
+// The task ReadData reading data from sensors
+void ReadDataFunc() {
+	//Здесь ожидание флага, чтобы запустить задачу
+	flags = osEventFlagsWait(ReadDataEventHandle, FLAG_ReadData, osFlagsWaitAny, osWaitForever);
+	//Здесь код для считывания данных с датчиков
 }

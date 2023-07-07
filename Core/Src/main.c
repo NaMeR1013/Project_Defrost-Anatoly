@@ -96,6 +96,23 @@ const osThreadAttr_t DataProcessing_attributes = {
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
+/* Definitions for ReadData */
+osThreadId_t ReadDataHandle;
+const osThreadAttr_t ReadData_attributes = {
+  .name = "ReadData",
+  .stack_size = 128 * 4,
+  .priority = (osPriority_t) osPriorityLow,
+};
+/* Definitions for DataTimer */
+osTimerId_t DataTimerHandle;
+const osTimerAttr_t DataTimer_attributes = {
+  .name = "DataTimer"
+};
+/* Definitions for ReadDataEvent */
+osEventFlagsId_t ReadDataEventHandle;
+const osEventFlagsAttr_t ReadDataEvent_attributes = {
+  .name = "ReadDataEvent"
+};
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -112,6 +129,8 @@ static void MX_DMA2D_Init(void);
 void StartDefaultTask(void *argument);
 extern void TouchGFX_Task(void *argument);
 void HandleDataProcessing(void *argument);
+void ReadDataFunction(void *argument);
+void Callback01(void *argument);
 
 /* USER CODE BEGIN PFP */
 static void BSP_SDRAM_Initialization_Sequence(SDRAM_HandleTypeDef *hsdram, FMC_SDRAM_CommandTypeDef *Command);
@@ -204,8 +223,13 @@ int main(void)
   /* add semaphores, ... */
   /* USER CODE END RTOS_SEMAPHORES */
 
+  /* Create the timer(s) */
+  /* creation of DataTimer */
+  DataTimerHandle = osTimerNew(Callback01, osTimerPeriodic, NULL, &DataTimer_attributes);
+
   /* USER CODE BEGIN RTOS_TIMERS */
   /* start timers, add new ones, ... */
+  osTimerStart(DataTimerHandle, 1000);
   /* USER CODE END RTOS_TIMERS */
 
   /* USER CODE BEGIN RTOS_QUEUES */
@@ -222,9 +246,16 @@ int main(void)
   /* creation of DataProcessing */
   DataProcessingHandle = osThreadNew(HandleDataProcessing, NULL, &DataProcessing_attributes);
 
+  /* creation of ReadData */
+  ReadDataHandle = osThreadNew(ReadDataFunction, NULL, &ReadData_attributes);
+
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
+
+  /* Create the event(s) */
+  /* creation of ReadDataEvent */
+  ReadDataEventHandle = osEventFlagsNew(&ReadDataEvent_attributes);
 
   /* USER CODE BEGIN RTOS_EVENTS */
   /* add events, ... */
@@ -588,6 +619,9 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12|GPIO_PIN_13, GPIO_PIN_RESET);
 
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOG, LD3_Pin|LD4_Pin, GPIO_PIN_RESET);
+
   /*Configure GPIO pins : VSYNC_FREQ_Pin RENDER_TIME_Pin FRAME_RATE_Pin MCU_ACTIVE_Pin */
   GPIO_InitStruct.Pin = VSYNC_FREQ_Pin|RENDER_TIME_Pin|FRAME_RATE_Pin|MCU_ACTIVE_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
@@ -608,6 +642,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
   HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : LD3_Pin LD4_Pin */
+  GPIO_InitStruct.Pin = LD3_Pin|LD4_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
@@ -952,7 +993,7 @@ void StartDefaultTask(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(100);
+    osDelay(1);
   }
   /* USER CODE END 5 */
 }
@@ -970,10 +1011,35 @@ void HandleDataProcessing(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
     DataFunc();
   }
   /* USER CODE END HandleDataProcessing */
+}
+
+/* USER CODE BEGIN Header_ReadDataFunction */
+/**
+* @brief Function implementing the ReadData thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_ReadDataFunction */
+void ReadDataFunction(void *argument)
+{
+  /* USER CODE BEGIN ReadDataFunction */
+  /* Infinite loop */
+  for(;;)
+  {
+	ReadDataFunc();
+  }
+  /* USER CODE END ReadDataFunction */
+}
+
+/* Callback01 function */
+void Callback01(void *argument)
+{
+  /* USER CODE BEGIN Callback01 */
+	DataTimerFunc();
+  /* USER CODE END Callback01 */
 }
 
 /**
