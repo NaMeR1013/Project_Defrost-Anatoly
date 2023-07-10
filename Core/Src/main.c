@@ -18,6 +18,7 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
+#include <Data.hpp>
 #include "main.h"
 #include "cmsis_os.h"
 #include "app_touchgfx.h"
@@ -25,7 +26,6 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "Components/ili9341/ili9341.h"
-#include "Data.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -1011,7 +1011,7 @@ void HandleDataProcessing(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    DataFunc();
+    DataFunc_C();
   }
   /* USER CODE END HandleDataProcessing */
 }
@@ -1029,7 +1029,7 @@ void ReadDataFunction(void *argument)
   /* Infinite loop */
   for(;;)
   {
-	ReadDataFunc();
+	ReadDataFunc_C();
   }
   /* USER CODE END ReadDataFunction */
 }
@@ -1038,7 +1038,7 @@ void ReadDataFunction(void *argument)
 void Callback01(void *argument)
 {
   /* USER CODE BEGIN Callback01 */
-	DataTimerFunc();
+	DataTimerFunc_C();
   /* USER CODE END Callback01 */
 }
 

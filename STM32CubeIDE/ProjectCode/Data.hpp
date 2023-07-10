@@ -1,0 +1,38 @@
+/*
+ * Data.hpp
+ *
+ *  Created on: Jul 3, 2023
+ *      Author: gdr
+ */
+
+#ifndef DATA_HPP_
+#define DATA_HPP_
+
+#include <stdint.h>
+#include <stdio.h>
+
+#define TQ 16				// time quantity for saving measures in array
+#define SQ 9				// sensors quantity for measures
+#define FLAG_ReadData 1ul		// read data event flag 0x00000001ul
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+	void DataTimerFunc_C();
+	void DataFunc_C(void);
+	void ReadDataFunc_C();
+
+#ifdef __cplusplus
+}
+#endif
+
+void DataTimerFunc();
+void DataFunc(void);
+void PushData();
+void ReadDataFunc();
+int PopData(int TimeFromStart, int SensNum, int Param);
+
+
+#endif /* DATA_HPP_ */
+
