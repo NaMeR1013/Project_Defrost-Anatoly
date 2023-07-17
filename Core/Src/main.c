@@ -18,7 +18,6 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include <Data.hpp>
 #include "main.h"
 #include "cmsis_os.h"
 #include "app_touchgfx.h"
