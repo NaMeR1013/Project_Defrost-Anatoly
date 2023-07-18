@@ -14,8 +14,12 @@ public:
     }
 
     void tick();
+    void tempUpdate();
+    float getCurrentTemp();
+
 protected:
     ModelListener* modelListener;
+    float DEFRcurrentTemperatureLeft;
 };
 
 #endif // MODEL_HPP

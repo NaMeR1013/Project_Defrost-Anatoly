@@ -11,6 +11,8 @@ public:
     virtual ~VisualizationView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+
+    virtual void tempUpdate();
 protected:
 };
 

@@ -27,6 +27,8 @@ public:
 
     virtual ~VisualizationPresenter() {};
 
+    virtual void tempUpdate();
+
 private:
     VisualizationPresenter();
 

@@ -16,3 +16,9 @@ void VisualizationPresenter::deactivate()
 {
 
 }
+
+void VisualizationPresenter::tempUpdate()
+{
+	view.tempUpdate();
+}
+

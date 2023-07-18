@@ -25,10 +25,8 @@ extern "C" {
 
 void DataTimerFunc();
 void DataFunc(void);
-void PushData();
 void ReadDataFunc();
 void InitData();
-int PopData(int TimeFromStart, int SensNum, int Param);
 
 
 #endif /* DATA_HPP_ */

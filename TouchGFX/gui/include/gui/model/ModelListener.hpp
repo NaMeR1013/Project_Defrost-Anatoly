@@ -14,6 +14,9 @@ public:
     {
         model = m;
     }
+
+    virtual void tempUpdate() {}
+
 protected:
     Model* model;
 };
