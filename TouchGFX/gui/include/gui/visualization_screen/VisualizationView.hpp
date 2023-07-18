@@ -12,8 +12,10 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
 
-    virtual void tempUpdate();
+    virtual void tempUpdateView();
 protected:
+    float Temp = 36.67;
+
 };
 
 #endif // VISUALIZATIONVIEW_HPP

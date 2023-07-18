@@ -2,6 +2,7 @@
 #include <touchgfx/utils.hpp>
 #include <iostream>
 
+
 Settings1View::Settings1View()
 {
 

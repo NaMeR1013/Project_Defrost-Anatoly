@@ -15,7 +15,7 @@ public:
         model = m;
     }
 
-    virtual void tempUpdate() {}
+    virtual void tempUpdatePresenter() {}
 
 protected:
     Model* model;

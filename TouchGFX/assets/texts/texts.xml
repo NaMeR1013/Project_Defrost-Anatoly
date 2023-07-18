@@ -49,7 +49,7 @@
       <Text Id="ValueCoreT2Small" Alignment="Left" TypographyId="Small">
         <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
-      <Text Id="ValueDefrosterT1" Alignment="Left" TypographyId="Small">
+      <Text Id="ValueDefrosterT1" Alignment="Center" TypographyId="Small">
         <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
       <Text Id="ValueDefrosterT2" Alignment="Left" TypographyId="Small">
@@ -194,7 +194,7 @@
   <Typographies>
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="." WildcardCharacterRanges="0-9" />
     <Typography Id="WildcardLarge" Font="verdana.ttf" Size="40" Bpp="4" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-0123456789" />
   </Typographies>
 </TextDatabase>

@@ -17,8 +17,8 @@ void VisualizationPresenter::deactivate()
 
 }
 
-void VisualizationPresenter::tempUpdate()
+void VisualizationPresenter::tempUpdatePresenter()
 {
-	view.tempUpdate();
+	view.tempUpdateView();
 }
 

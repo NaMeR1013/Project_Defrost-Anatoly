@@ -1,7 +1,8 @@
 #include <gui/visualization_screen/VisualizationView.hpp>
+#include <touchgfx/utils.hpp>
 
-#include "string.h"
-float const Temp = 36/8;
+//#include "string.h"
+#include "stdio.h"
 
 VisualizationView::VisualizationView()
 {
@@ -18,8 +19,9 @@ void VisualizationView::tearDownScreen()
     VisualizationViewBase::tearDownScreen();
 }
 
-void VisualizationView::tempUpdate()
+void VisualizationView::tempUpdateView()
 {
-//	Unicode::snprintfFloat(ValueDefrosterT1, sizeof(ValueDefrosterT1), "%.2f", Temp);
+	Unicode::snprintfFloat(ValueDefrosterT1Buffer, sizeof(ValueDefrosterT1Buffer), "%.2f", Temp);
 	ValueDefrosterT1.invalidate();
+
 }

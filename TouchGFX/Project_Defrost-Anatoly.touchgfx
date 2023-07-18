@@ -471,10 +471,10 @@
           {
             "Type": "TextArea",
             "Name": "ValueDefrosterT1",
-            "X": 37,
+            "X": 28,
             "Y": 226,
-            "Width": 18,
-            "Height": 13,
+            "Width": 31,
+            "Height": 15,
             "TextId": "ValueDefrosterT1",
             "TextRotation": "0",
             "Color": {
@@ -482,9 +482,10 @@
               "Green": 246,
               "Blue": 251
             },
-            "AutoSize": true,
             "Wildcard1": {
-              "TextId": "ValueDefrosterT1_W"
+              "TextId": "ValueDefrosterT1_W",
+              "UseBuffer": true,
+              "BufferSize": 10
             }
           },
           {
@@ -1028,7 +1029,7 @@
             "Name": "LabelCoreTSensors_1",
             "X": 34,
             "Y": 148,
-            "Width": 172,
+            "Width": 173,
             "Height": 25,
             "TextId": "LabelCoreTSet",
             "TextRotation": "0",

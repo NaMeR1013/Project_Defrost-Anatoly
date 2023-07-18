@@ -14,7 +14,7 @@ public:
     }
 
     void tick();
-    void tempUpdate();
+    void tempUpdateModel();
     float getCurrentTemp();
 
 protected:
