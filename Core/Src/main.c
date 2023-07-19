@@ -25,6 +25,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "Components/ili9341/ili9341.h"
+#include "Data.hpp"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
