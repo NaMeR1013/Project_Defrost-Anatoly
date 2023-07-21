@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.21.4">
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.22.0">
   <Languages>
     <Language Id="GB" />
   </Languages>
@@ -166,10 +166,10 @@
         <Translation Language="GB">Группа 3</Translation>
       </Text>
       <Text Id="__SingleUse_1KOJ" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB" />
+        <Translation Language="GB"></Translation>
       </Text>
       <Text Id="__SingleUse_P4SQ" Alignment="Left" TypographyId="Small">
-        <Translation Language="GB" />
+        <Translation Language="GB"></Translation>
       </Text>
       <Text Id="LabelOffOn" Alignment="Center" TypographyId="Small">
         <Translation Language="GB">Выкл/вкл</Translation>

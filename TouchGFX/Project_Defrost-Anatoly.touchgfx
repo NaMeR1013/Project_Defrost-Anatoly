@@ -173,8 +173,8 @@
             "Name": "LabelCoreT",
             "X": 15,
             "Y": 8,
-            "Width": 121,
-            "Height": 25,
+            "Width": 120,
+            "Height": 24,
             "TextId": "LabelCoreT",
             "TextRotation": "0",
             "Color": {
@@ -189,8 +189,8 @@
             "Name": "ValueCoreT1",
             "X": 15,
             "Y": 33,
-            "Width": 45,
-            "Height": 25,
+            "Width": 46,
+            "Height": 24,
             "TextId": "ValueCoreT1",
             "TextRotation": "0",
             "Color": {
@@ -208,8 +208,8 @@
             "Name": "ValueCoreT2",
             "X": 91,
             "Y": 33,
-            "Width": 45,
-            "Height": 25,
+            "Width": 46,
+            "Height": 24,
             "TextId": "ValueCoreT2",
             "TextRotation": "0",
             "Color": {
@@ -228,7 +228,7 @@
             "X": 11,
             "Y": 87,
             "Width": 219,
-            "Height": 25,
+            "Height": 24,
             "TextId": "LabelPRGTimeLeft",
             "TextRotation": "0",
             "Color": {
@@ -243,8 +243,8 @@
             "Name": "ValuePRGTimeLeft",
             "X": 11,
             "Y": 112,
-            "Width": 38,
-            "Height": 25,
+            "Width": 39,
+            "Height": 24,
             "TextId": "ValuePRGTimeLeft",
             "TextRotation": "0",
             "Color": {
@@ -2473,6 +2473,6 @@
       "Vector"
     ]
   },
-  "Version": "4.21.4",
+  "Version": "4.22.0",
   "CreatedBy": "4.21.4"
 }
