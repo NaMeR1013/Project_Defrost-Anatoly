@@ -12,9 +12,12 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
 
-    virtual void tempUpdateView();
+    virtual void Val0UpdateView(float val);
+    virtual void Val1UpdateView(float val);
+    virtual void Val2UpdateView(float val);
+    virtual void Val3UpdateView(float val);
+    virtual void Val4UpdateView(float val);
 protected:
-    float Temp = 36.67;
 
 };
 

@@ -4,6 +4,15 @@
 #include <gui/model/ModelListener.hpp>
 #include <mvp/Presenter.hpp>
 
+/*	Current temperature from sensor saved in CurrentTemperature[SQ] array
+ * 	0 - defroster left
+ * 	1 - defroster right
+ * 	2 - defroster center
+ *	3 - fish left
+ *	4 - fish right
+ */
+
+
 using namespace touchgfx;
 
 class VisualizationView;
@@ -27,7 +36,7 @@ public:
 
     virtual ~VisualizationPresenter() {};
 
-    virtual void tempUpdatePresenter();
+    virtual void ValUpdatePresenter();
 
 private:
     VisualizationPresenter();

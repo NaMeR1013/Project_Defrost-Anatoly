@@ -350,8 +350,8 @@
             "Name": "StateHeat2",
             "X": 94,
             "Y": 120,
-            "Width": 7,
-            "Height": 13,
+            "Width": 6,
+            "Height": 12,
             "TextId": "StateHeat2",
             "TextRotation": "0",
             "Color": {
@@ -409,8 +409,8 @@
             "Name": "StateFan1",
             "X": 28,
             "Y": 172,
-            "Width": 7,
-            "Height": 13,
+            "Width": 6,
+            "Height": 12,
             "TextId": "StateFan1",
             "TextRotation": "0",
             "Color": {
@@ -425,8 +425,8 @@
             "Name": "StateFan3",
             "X": 188,
             "Y": 172,
-            "Width": 7,
-            "Height": 13,
+            "Width": 6,
+            "Height": 12,
             "TextId": "StateFan3",
             "TextRotation": "0",
             "Color": {
@@ -441,8 +441,8 @@
             "Name": "StateFan4",
             "X": 206,
             "Y": 172,
-            "Width": 7,
-            "Height": 13,
+            "Width": 6,
+            "Height": 12,
             "TextId": "StateFan4",
             "TextRotation": "0",
             "Color": {
@@ -457,8 +457,8 @@
             "Name": "StateFan2",
             "X": 46,
             "Y": 172,
-            "Width": 7,
-            "Height": 13,
+            "Width": 6,
+            "Height": 12,
             "TextId": "StateFan2",
             "TextRotation": "0",
             "Color": {
@@ -473,7 +473,7 @@
             "Name": "ValueDefrosterT1",
             "X": 28,
             "Y": 226,
-            "Width": 31,
+            "Width": 35,
             "Height": 15,
             "TextId": "ValueDefrosterT1",
             "TextRotation": "0",
@@ -491,10 +491,10 @@
           {
             "Type": "TextArea",
             "Name": "ValueDefrosterT2",
-            "X": 186,
+            "X": 178,
             "Y": 226,
-            "Width": 18,
-            "Height": 13,
+            "Width": 34,
+            "Height": 15,
             "TextId": "ValueDefrosterT2",
             "TextRotation": "0",
             "Color": {
@@ -502,18 +502,19 @@
               "Green": 246,
               "Blue": 251
             },
-            "AutoSize": true,
             "Wildcard1": {
-              "TextId": "ValueDefrosterT2_W"
+              "TextId": "ValueDefrosterT2_W",
+              "UseBuffer": true,
+              "BufferSize": 10
             }
           },
           {
             "Type": "TextArea",
             "Name": "ValueCoreT1Small",
-            "X": 78,
+            "X": 75,
             "Y": 226,
-            "Width": 23,
-            "Height": 13,
+            "Width": 32,
+            "Height": 15,
             "TextId": "ValueCoreT1Small",
             "TextRotation": "0",
             "Color": {
@@ -521,18 +522,19 @@
               "Green": 246,
               "Blue": 251
             },
-            "AutoSize": true,
             "Wildcard1": {
-              "TextId": "ValueCoreT1_W"
+              "TextId": "ValueCoreT1_W",
+              "UseBuffer": true,
+              "BufferSize": 10
             }
           },
           {
             "Type": "TextArea",
             "Name": "ValueCoreT2Small",
-            "X": 140,
+            "X": 130,
             "Y": 226,
-            "Width": 23,
-            "Height": 13,
+            "Width": 35,
+            "Height": 15,
             "TextId": "ValueCoreT2Small",
             "TextRotation": "0",
             "Color": {
@@ -540,9 +542,10 @@
               "Green": 246,
               "Blue": 251
             },
-            "AutoSize": true,
             "Wildcard1": {
-              "TextId": "ValueCoreT2_W"
+              "TextId": "ValueCoreT2_W",
+              "UseBuffer": true,
+              "BufferSize": 10
             }
           },
           {
@@ -551,7 +554,7 @@
             "X": 113,
             "Y": 165,
             "Width": 23,
-            "Height": 13,
+            "Height": 12,
             "TextId": "ValueDefrosterH",
             "TextRotation": "0",
             "Color": {
@@ -569,8 +572,8 @@
             "Name": "StateHeat1",
             "X": 84,
             "Y": 120,
-            "Width": 7,
-            "Height": 13,
+            "Width": 6,
+            "Height": 12,
             "TextId": "StateHeat1",
             "TextRotation": "0",
             "Color": {
@@ -585,8 +588,8 @@
             "Name": "StateHeat4",
             "X": 150,
             "Y": 120,
-            "Width": 7,
-            "Height": 13,
+            "Width": 6,
+            "Height": 12,
             "TextId": "StateHeat4",
             "TextRotation": "0",
             "Color": {
@@ -601,8 +604,8 @@
             "Name": "StateHeat3",
             "X": 140,
             "Y": 120,
-            "Width": 7,
-            "Height": 13,
+            "Width": 6,
+            "Height": 12,
             "TextId": "StateHeat3",
             "TextRotation": "0",
             "Color": {

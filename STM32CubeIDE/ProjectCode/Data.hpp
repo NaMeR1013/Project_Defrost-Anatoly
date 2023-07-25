@@ -8,6 +8,7 @@
 #ifndef DATA_HPP_
 #define DATA_HPP_
 
+
 #define TQ 16				// time quantity for saving measures in array
 #define SQ 9				// sensors quantity for measures
 #define FLAG_ReadData 1ul		// read data event flag 0x00000001ul

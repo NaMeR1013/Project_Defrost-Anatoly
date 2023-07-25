@@ -43,16 +43,16 @@
       <Text Id="ValueDefrosterH" Alignment="Left" TypographyId="Small">
         <Translation Language="GB">&lt;value&gt;%</Translation>
       </Text>
-      <Text Id="ValueCoreT1Small" Alignment="Left" TypographyId="Small">
+      <Text Id="ValueCoreT1Small" Alignment="Center" TypographyId="Small">
         <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
-      <Text Id="ValueCoreT2Small" Alignment="Left" TypographyId="Small">
+      <Text Id="ValueCoreT2Small" Alignment="Center" TypographyId="Small">
         <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
       <Text Id="ValueDefrosterT1" Alignment="Center" TypographyId="Small">
         <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
-      <Text Id="ValueDefrosterT2" Alignment="Left" TypographyId="Small">
+      <Text Id="ValueDefrosterT2" Alignment="Center" TypographyId="Small">
         <Translation Language="GB">&lt;value&gt;°</Translation>
       </Text>
       <Text Id="ValuePRGTimeLeft" Alignment="Left" TypographyId="Default">
